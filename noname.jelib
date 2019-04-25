@@ -1,0 +1,20 @@
+# header information:
+Hnoname|9.07
+
+# Views:
+Vschematic|sch
+
+# Technologies:
+Tmocmos|ScaleFORmocmos()D300.0|mocmosAnalog()BT|mocmosNumberOfMetalLayers()I3
+
+# Cell NAND;1{sch}
+CNAND;1{sch}||schematic|1556148610849|1556148610922||IO_dummy_object()SNAND;1{sch}|IO_true_library()SKey_Exchange
+Ngeneric:Facet-Center|art@0||0|0||||AV
+Ngeneric:Invisible-Pin|pin@0||0|0||||
+Ngeneric:Universal-Pin|pin@1||-17|8|-1|-1||
+Ngeneric:Universal-Pin|pin@2||-40|12|-1|-1||
+Ngeneric:Universal-Pin|pin@3||-40|7|-1|-1||
+EA||D5G2;|pin@2||U
+EB||D5G2;|pin@3||U
+EF||D5G2;|pin@1||U
+X
