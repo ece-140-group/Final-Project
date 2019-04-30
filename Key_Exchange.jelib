@@ -843,7 +843,7 @@ Ngeneric:Facet-Center|art@0||0|0||||AV
 X
 
 # Cell Full_Adder;1{sch}
-CFull_Adder;1{sch}||schematic|1556175555199|1556177194420|
+CFull_Adder;1{sch}||schematic|1556175555199|1556568663861|
 INAND;1{sch}|NAND@0||-114.5|-16|||D5G4;
 INAND;1{sch}|NAND@1||-86|-16|||D5G4;
 INAND;1{sch}|NAND@2||-55.5|-18|||D5G4;
@@ -914,9 +914,7 @@ Awire|net@17|||2700|pin@3||-128.5|-8|pin@1||-128.5|-3.5
 Awire|net@18|||1800|NAND@0|F|-131.5|-8|pin@3||-128.5|-8
 Awire|net@19|||0|NAND@2|B|-95.5|-11|pin@4||-97.5|-11
 Awire|net@21|||1800|pin@5||-97.5|-6|NAND@2|A|-95.5|-6
-Awire|net@23|||2700|XOR@0|A|-157.5|38.5|pin@16||-157.5|53
 Awire|net@24|||2700|conn@3||-174.5|-68.5|pin@17||-174.5|27.5
-Awire|net@26|||2700|XOR@0|F|-127|30|pin@18||-127|38.5
 Awire|net@28|||0|NAND@6|B|-131|-46|pin@19||-133.5|-46
 Awire|net@29|||1800|pin@20||-133.5|-40.5|pin@21||-131|-40.5
 Awire|net@30|||2700|NAND@6|A|-131|-41|pin@21||-131|-40.5
@@ -928,7 +926,6 @@ Awire|net@35|||1800|conn@2||-174.5|53|pin@24||-161.5|53
 Awire|net@36|||1800|pin@24||-161.5|53|pin@16||-157.5|53
 Awire|net@37|||2700|pin@23||-161.5|-41|pin@24||-161.5|53
 Awire|net@38|||0|NAND@5|B|-159.5|-46|pin@25||-162.5|-46
-Awire|net@39|||0|XOR@0|B|-157|27.5|pin@26||-162.5|27.5
 Awire|net@40|||0|pin@26||-162.5|27.5|pin@17||-174.5|27.5
 Awire|net@41|||2700|pin@25||-162.5|-46|pin@26||-162.5|27.5
 Awire|net@42|||2700|pin@6||-97.5|-46|pin@27||-97.5|-45
@@ -938,7 +935,6 @@ Awire|net@45|||2700|pin@4||-97.5|-11|pin@28||-97.5|-8
 Awire|net@46|||2700|pin@28||-97.5|-8|pin@5||-97.5|-6
 Awire|net@47|||1800|NAND@1|F|-103|-8|pin@28||-97.5|-8
 Awire|net@49|||2700|pin@29||-117|11.5|pin@30||-117|27.5
-Awire|net@50|||1800|pin@30||-117|27.5|XOR@1|B|-109.5|27.5
 Awire|net@51|||0|NAND@0|B|-154.5|-9|pin@31||-159|-9
 Awire|net@52|||1800|conn@4||-173|11.5|pin@32||-159|11.5
 Awire|net@53|||1800|pin@32||-159|11.5|pin@29||-117|11.5
@@ -946,10 +942,8 @@ Awire|net@54|||2700|pin@31||-159|-9|pin@32||-159|11.5
 Awire|net@55|||0|NAND@0|A|-154.5|-4|pin@33||-156.5|-4
 Awire|net@56|||2700|pin@33||-156.5|-4|pin@34||-156.5|15.5
 Awire|net@57|||1800|pin@34||-156.5|15.5|pin@35||-122|15.5
-Awire|net@58|||0|XOR@1|A|-110|38.5|pin@36||-122|38.5
 Awire|net@59|||0|pin@36||-122|38.5|pin@18||-127|38.5
 Awire|net@60|||2700|pin@35||-122|15.5|pin@36||-122|38.5
-Awire|net@61|||1800|XOR@1|F|-79.5|30|pin@37||-60.5|30
 Awire|net@62|||2700|conn@0||-60.5|-68|pin@37||-60.5|30
 Awire|net@63|||900|pwr@0||-118|56|pin@38||-118|50.5
 Awire|net@64|||1800|XOR@0|VDD|-133|50.5|pin@38||-118|50.5
@@ -968,7 +962,7 @@ Ngeneric:Facet-Center|art@0||0|0||||AV
 X
 
 # Cell Inverter;1{lay}
-CInverter;1{lay}||mocmos|1556133943618|1556221075297||DRC_last_good_drc_area_date()G1556172897574|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1556172897574
+CInverter;1{lay}||mocmos|1556133943618|1556221075297||DRC_last_good_drc_area_date()G1556172897574|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1556555173468
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-P-Active-Con|contact@0||-20|14|10||R|
 NMetal-1-N-Active-Con|contact@1||-20|-15||||
@@ -1040,7 +1034,7 @@ Ngeneric:Facet-Center|art@0||0|0||||AV
 X
 
 # Cell MUX_2_1;1{lay}
-CMUX_2_1;1{lay}||mocmos|1556172308786|1556172855484||DRC_last_good_drc_area_date()G1556172862766|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1556172862766
+CMUX_2_1;1{lay}||mocmos|1556172308786|1556556754546||DRC_last_good_drc_area_date()G1556556769993|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1556556769993
 IInverter;1{lay}|Inverter@0||-51.5|-27|||D5G4;
 INAND;1{lay}|NAND@0||-7|-5.5|||D5G4;
 INAND;1{lay}|NAND@1||54.5|-5.5|||D5G4;
@@ -1055,8 +1049,7 @@ NMetal-1-Pin|pin@7||-87.5|-72.5||||
 NMetal-1-Pin|pin@8||-87.5|-30||||
 NMetal-1-Pin|pin@9||21.5|-73||||
 NMetal-1-Pin|pin@10||-47.5|0||||
-NMetal-1-Pin|pin@11||-47.5|14.5||||
-NMetal-1-Pin|pin@12||-47.5|14||||
+NMetal-1-Pin|pin@13||-47.5|14||||
 AMetal-1|net@1||1|S2700|NAND@0|B|-40|-31|pin@0||-40|-30
 AMetal-1|net@11||1|S0|NAND@2|B|-37|-103.5|contact@2||-102|-103.5
 AMetal-1|net@12||1|S1800|Inverter@0|out|-54.5|-30|pin@0||-40|-30
@@ -1069,9 +1062,8 @@ AMetal-1|net@18||1|S1800|NAND@2|F|6.5|-73|pin@9||21.5|-73
 AMetal-1|net@19||1|S900|NAND@1|B|21.5|-31|pin@9||21.5|-73
 AMetal-1|net@20||1|S1800|NAND@1|F|65|-0.5|contact@3||80|-0.5
 AMetal-1|net@21||1|S0|NAND@0|A|-41|0|pin@10||-47.5|0
-AMetal-1|net@22||1|S2700|pin@10||-47.5|0|pin@11||-47.5|14.5
-AMetal-1|net@23||1|S900|pin@11||-47.5|14.5|pin@12||-47.5|14
-AMetal-1|net@24||1|S1800|contact@1||-104.5|14|pin@12||-47.5|14
+AMetal-1|net@25||1|S2700|pin@10||-47.5|0|pin@13||-47.5|14
+AMetal-1|net@26||1|S1800|contact@1||-104.5|14|pin@13||-47.5|14
 EA||D5G2;|contact@1||I
 EB||D5G2;|contact@2||I
 EF||D5G2;|contact@3||O
@@ -1079,15 +1071,14 @@ ES||D5G2;|contact@0||I
 X
 
 # Cell MUX_2_1;1{net.als}
-CMUX_2_1;1{net.als}||artwork|1556077400671|1556172912682||FACET_message()S[#*************************************************,#  ALS Netlist file,#,"#  File Creation:    Wed Apr 24, 2019 23:15:12",#-------------------------------------------------,"","model Inverter(in_, out_)","nmos_0: nMOStran(in_, net_4, out_)","pmos_0: PMOStran(in_, net_1, out_)","","model NAND_(A, B, F, VDD, GND)","nmos_0: nMOStran(A, GND, net_4)","nmos_1: nMOStran(B, net_4, F)","pmos_0: PMOStran(A, F, VDD)","pmos_1: PMOStran(B, VDD, F)",substr_0: ground(GND),well_0: power(VDD),set power = H@3,"","model MUX_2_1(A, B, S, F)","Inverter_0: Inverter(S, net_1)","NAND_0: NAND_(A, net_1, net_17, n0, n1)","NAND_1: NAND_(net_17, net_18, F, n2, n3)","NAND_2: NAND_(S, B, net_18, n4, n5)","",#********* End of netlist *******************,"",# Built-in model for power,gate power(p),set p=H@3,t: delta=0,"",# Built-in model for ground,gate ground(g),set g=L@3,t: delta=0,"",# Built-in model for PMOStran,"function PMOStran(g, a1, a2)","i: g, a1, a2","o: a1, a2",t: delta=1e-8,"",# Built-in model for nMOStran,"function nMOStran(g, a1, a2)","i: g, a1, a2","o: a1, a2",t: delta=1e-8]
+CMUX_2_1;1{net.als}||artwork|1556077400671|1556557427839||FACET_message()S[#*************************************************,#  ALS Netlist file,#,"#  File Creation:    Mon Apr 29, 2019 10:03:47",#-------------------------------------------------,"","model MUX_2_1(S, p0, p1, F)",gnd_2: ground(gnd),"nmos_0: nMOStran(p0, net_3, A_1)","nmos_1: nMOStran(net_58, gnd, net_3)","nmos_2: nMOStran(A_1, net_17, F)","nmos_3: nMOStran(net_114, gnd, net_17)","nmos_4: nMOStran(p1, net_31, net_114)","nmos_5: nMOStran(S, gnd, net_31)","nmos_6: nMOStran(S, gnd, net_58)","pmos_0: PMOStran(net_58, A_1, vdd)","pmos_1: PMOStran(p0, A_1, vdd)","pmos_2: PMOStran(net_114, F, vdd)","pmos_3: PMOStran(A_1, F, vdd)","pmos_4: PMOStran(S, net_114, vdd)","pmos_5: PMOStran(p1, net_114, vdd)","pmos_6: PMOStran(S, net_58, vdd)",pwr_0: power(vdd),set power = H@3,"",#********* End of netlist *******************,"",# Built-in model for power,gate power(p),set p=H@3,t: delta=0,"",# Built-in model for PMOStran,"function PMOStran(g, a1, a2)","i: g, a1, a2","o: a1, a2",t: delta=1e-8,"",# Built-in model for nMOStran,"function nMOStran(g, a1, a2)","i: g, a1, a2","o: a1, a2",t: delta=1e-8,"",# Built-in model for ground,gate ground(g),set g=L@3,t: delta=0]
 Ngeneric:Facet-Center|art@0||0|0||||AV
 X
 
 # Cell MUX_2_1;1{sch}
-CMUX_2_1;1{sch}||schematic|1556076372187|1556078286313|
+CMUX_2_1;1{sch}||schematic|1556076372187|1556557352483|
 NWire_Pin|B|D5G1;|-38|5||||
 NWire_Pin|B_1|D5G1;|-3|1||||
-NWire_Pin|B_2|D5G1;|-38|-30||||
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NGround|gnd@2||-22|-37||||
 NTransistor|nmos@0||-24|9|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
@@ -1099,22 +1090,14 @@ NTransistor|nmos@5||-24|-30|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G
 NTransistor|nmos@6||-43|1|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
 NWire_Pin|pin@0||-31|21||||
 NWire_Pin|pin@8||8|13||||
-NWire_Pin|pin@24||-49|15||||
-NWire_Pin|pin@25||-25|15||||
-NWire_Pin|pin@26||-50|-21||||
-NWire_Pin|pin@27||-25|-21||||
 NWire_Pin|pin@28||-41|5||||
 NWire_Pin|pin@29||-31|-14||||
 NWire_Pin|pin@31||-41|23||||
 NWire_Pin|pin@32||-31|23||||
 NWire_Pin|pin@33||-22|-1||||
-NWire_Pin|pin@34||-50|5||||
-NWire_Pin|pin@35||-44|5||||
-NWire_Pin|pin@36||-44|-23||||
 NWire_Pin|pin@37||13|11||||
 NWire_Pin|pin@38||10|11||||
 NWire_Pin|pin@42||9|11||||
-NWire_Pin|pin@43||-38|-23||||
 NWire_Pin|pin@44||3|17||||
 NWire_Pin|pin@45||3|23||||
 NWire_Pin|pin@46||-24|17||||
@@ -1126,6 +1109,14 @@ NWire_Pin|pin@51||-24|-18||||
 NWire_Pin|pin@52||-24|-21||||
 NWire_Pin|pin@53||-22|-21||||
 NWire_Pin|pin@54||0|1||||
+NWire_Pin|pin@55||-25|14.5||||
+NWire_Pin|pin@56||-49.5|14.5||||
+NWire_Pin|pin@57||-25|-20||||
+NWire_Pin|pin@58||-48.5|-20||||
+NWire_Pin|pin@59||-38|-30||||
+NWire_Pin|pin@60||-44|-16||||
+NWire_Pin|pin@61||-44|-4||||
+NWire_Pin|pin@62||-50|-4||||
 NTransistor|pmos@0||-37|19|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
 NTransistor|pmos@1||-24|19|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
 NTransistor|pmos@2||-2|15|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
@@ -1134,9 +1125,7 @@ NTransistor|pmos@4||-37|-16|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5
 NTransistor|pmos@5||-24|-16|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
 NTransistor|pmos@6||-43|9|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
 NPower|pwr@0||-31|26||||
-Awire|A|D5G1;||900|pin@25||-25|15|nmos@0|g|-25|9
 Awire|A_1|D5G1;||900|pin@42||9|11|nmos@2|g|9|7
-Awire|A_2|D5G1;||900|pmos@5|g|-25|-16|pin@27||-25|-21
 Awire|F_1|D5G1;||3150|pin@38||10|11|pin@8||8|13
 Awire|net@0|||1800|pin@0||-31|21|pmos@1|d|-22|21
 Awire|net@3|||2700|nmos@0|s|-22|7|nmos@1|d|-22|7
@@ -1145,11 +1134,6 @@ Awire|net@17|||900|nmos@2|s|12|5|nmos@3|d|12|3
 Awire|net@19|||1800|pmos@2|s|0|13|pin@8||8|13
 Awire|net@20|||1800|pin@8||8|13|pmos@3|s|12|13
 Awire|net@31|||900|nmos@4|s|-22|-27|nmos@5|d|-22|-28
-Awire|net@32|||1800|B_2||-38|-30|nmos@5|g|-25|-30
-Awire|net@51|||900|pmos@1|g|-25|19|pin@25||-25|15
-Awire|net@52|||1800|pin@24||-49|15|pin@25||-25|15
-Awire|net@54|||900|pin@27||-25|-21|nmos@4|g|-25|-25
-Awire|net@55|||1800|pin@26||-50|-21|pin@27||-25|-21
 Awire|net@58|||900|pmos@0|g|-38|19|B||-38|5
 Awire|net@59|||900|pmos@6|s|-41|7|pin@28||-41|5
 Awire|net@60|||900|pin@28||-41|5|nmos@6|d|-41|3
@@ -1163,16 +1147,9 @@ Awire|net@73|||900|pwr@0||-31|26|pin@32||-31|23
 Awire|net@75|||1800|pin@31||-41|23|pin@32||-31|23
 Awire|net@77|||2700|pin@33||-22|-1|nmos@1|s|-22|3
 Awire|net@78|||1800|nmos@6|s|-41|-1|pin@33||-22|-1
-Awire|net@79|||900|pmos@6|g|-44|9|pin@35||-44|5
-Awire|net@80|||900|pin@35||-44|5|nmos@6|g|-44|1
-Awire|net@81|||1800|pin@34||-50|5|pin@35||-44|5
-Awire|net@84|||900|pin@35||-44|5|pin@36||-44|-23
 Awire|net@85|||3150|nmos@2|d|12|9|pin@38||10|11
 Awire|net@86|||0|pin@37||13|11|pin@38||10|11
 Awire|net@95|||900|pmos@3|g|9|15|pin@42||9|11
-Awire|net@98|||900|pmos@4|g|-38|-16|pin@43||-38|-23
-Awire|net@99|||900|pin@43||-38|-23|B_2||-38|-30
-Awire|net@100|||1800|pin@36||-44|-23|pin@43||-38|-23
 Awire|net@101|||2700|pin@29||-31|-14|pin@32||-31|23
 Awire|net@102|||0|pmos@3|d|12|17|pin@44||3|17
 Awire|net@103|||0|pin@44||3|17|pmos@2|d|0|17
@@ -1198,14 +1175,27 @@ Awire|net@124|||900|pin@53||-22|-21|nmos@4|d|-22|-23
 Awire|net@125|||1800|B_1||-3|1|pin@54||0|1
 Awire|net@126|||1800|pin@54||0|1|nmos@3|g|9|1
 Awire|net@127|||2250|pin@53||-22|-21|pin@54||0|1
-EA||D5G2;|pin@24||I
-EB||D5G2;|pin@26||I
+Awire|net@129|||2700|nmos@0|g|-25|9|pin@55||-25|14.5
+Awire|net@130|||2700|pin@55||-25|14.5|pmos@1|g|-25|19
+Awire|net@131|||0|pin@55||-25|14.5|pin@56||-49.5|14.5
+Awire|net@135|||2700|nmos@4|g|-25|-25|pin@57||-25|-20
+Awire|net@136|||2700|pin@57||-25|-20|pmos@5|g|-25|-16
+Awire|net@137|||0|pin@57||-25|-20|pin@58||-48.5|-20
+Awire|net@138|||0|nmos@5|g|-25|-30|pin@59||-38|-30
+Awire|net@139|||900|pmos@4|g|-38|-16|pin@59||-38|-30
+Awire|net@142|||2700|pin@60||-44|-16|pmos@6|g|-44|9
+Awire|net@143|||0|pmos@4|g|-38|-16|pin@60||-44|-16
+Awire|net@144|||900|nmos@6|g|-44|1|pin@61||-44|-4
+Awire|net@145|||900|pin@61||-44|-4|pin@60||-44|-16
+Awire|net@146|||0|pin@61||-44|-4|pin@62||-50|-4
 EF||D5G2;|pin@37||O
-ES||D5G2;|pin@34||I
+ES||D5G2;|pin@62||I
+Ep0||D5G2;|pin@56||I
+Ep1||D5G2;|pin@58||I
 X
 
 # Cell MUX_2_1;1{vhdl}
-CMUX_2_1;1{vhdl}||artwork|1556077400668|1556172912682||FACET_message()S["-- VHDL automatically generated by the Electric VLSI Design System, version ",-- 9.07,"",-------------------- Cell Inverter{lay} --------------------,entity Inverter is port(in_: in BIT; out_: out BIT);,  end Inverter;,"",architecture Inverter_BODY of Inverter is,"  component nMOStran port(poly_left, diff_top, diff_bottom: inout BIT);",    end component;,"  component PMOStran port(poly_left, diff_top, diff_bottom: inout BIT);",    end component;,"","  signal net_1, net_4: BIT;","",begin,"  nmos_0: nMOStran port map(in_, net_4, out_);","  pmos_0: PMOStran port map(in_, net_1, out_);",end Inverter_BODY;,"",-------------------- Cell NAND{lay} --------------------,"entity NAND_ is port(A, B: in BIT; F: out BIT; VDD: out BIT; GND: out BIT);",  end NAND_;,"",architecture NAND__BODY of NAND_ is,"  component nMOStran port(poly_left, diff_top, diff_bottom: inout BIT);",    end component;,"  component PMOStran port(poly_left, diff_top, diff_bottom: inout BIT);",    end component;,  component ground port(metal_1_well: inout BIT);,    end component;,  component power port(metal_1_substrate: inout BIT);,    end component;,"",  signal net_4: BIT;,"",begin,"  nmos_0: nMOStran port map(A, GND, net_4);","  nmos_1: nMOStran port map(B, net_4, F);","  pmos_0: PMOStran port map(A, F, VDD);","  pmos_1: PMOStran port map(B, VDD, F);",  substr_0: ground port map(GND);,  well_0: power port map(VDD);,end NAND__BODY;,"",-------------------- Cell MUX_2_1{lay} --------------------,"entity MUX_2_1 is port(A, B, S: in BIT; F: out BIT);",  end MUX_2_1;,"",architecture MUX_2_1_BODY of MUX_2_1 is,  component Inverter port(in_: in BIT; out_: out BIT);,    end component;,"  component NAND_ port(A, B: in BIT; F: out BIT; VDD: out BIT; GND: out BIT);",    end component;,"","  signal net_1, net_17, net_18: BIT;","",begin,"  Inverter_0: Inverter port map(S, net_1);","  NAND_0: NAND_ port map(A, net_1, net_17, open, open);","  NAND_1: NAND_ port map(net_17, net_18, F, open, open);","  NAND_2: NAND_ port map(S, B, net_18, open, open);",end MUX_2_1_BODY;]
+CMUX_2_1;1{vhdl}||artwork|1556077400668|1556557359732||FACET_message()S["-- VHDL automatically generated by the Electric VLSI Design System, version ",-- 9.07,"",-------------------- Cell MUX_2_1{sch} --------------------,"entity MUX_2_1 is port(S, p0, p1: in BIT; F: out BIT);",  end MUX_2_1;,"",architecture MUX_2_1_BODY of MUX_2_1 is,  component ground port(gnd: out BIT);,    end component;,"  component nMOStran port(g: in BIT; s, d: inout BIT);",    end component;,"  component PMOStran port(g: in BIT; s, d: inout BIT);",    end component;,  component power port(vdd: out BIT);,    end component;,"","  signal A_1, gnd, net_114, net_17, net_3, net_31, net_58, vdd: BIT;","",begin,  gnd_2: ground port map(gnd);,"  nmos_0: nMOStran port map(p0, net_3, A_1);","  nmos_1: nMOStran port map(net_58, gnd, net_3);","  nmos_2: nMOStran port map(A_1, net_17, F);","  nmos_3: nMOStran port map(net_114, gnd, net_17);","  nmos_4: nMOStran port map(p1, net_31, net_114);","  nmos_5: nMOStran port map(S, gnd, net_31);","  nmos_6: nMOStran port map(S, gnd, net_58);","  pmos_0: PMOStran port map(net_58, A_1, vdd);","  pmos_1: PMOStran port map(p0, A_1, vdd);","  pmos_2: PMOStran port map(net_114, F, vdd);","  pmos_3: PMOStran port map(A_1, F, vdd);","  pmos_4: PMOStran port map(S, net_114, vdd);","  pmos_5: PMOStran port map(p1, net_114, vdd);","  pmos_6: PMOStran port map(S, net_58, vdd);",  pwr_0: power port map(vdd);,end MUX_2_1_BODY;]
 Ngeneric:Facet-Center|art@0||0|0||||AV
 X
 
@@ -1330,7 +1320,7 @@ Ngeneric:Facet-Center|art@0||0|0||||AV
 X
 
 # Cell Pseudo_Random_Number_Generator;1{sch}
-CPseudo_Random_Number_Generator;1{sch}||schematic|1556122375799|1556227878129|
+CPseudo_Random_Number_Generator;1{sch}||schematic|1556122375799|1556568663861|
 ID-FF;1{sch}|D-FF@0||-530|-10|||D5G4;
 ID-FF;1{sch}|D-FF@1||-195|-10|||D5G4;
 ID-FF;1{sch}|D-FF@2||135|-20|||D5G4;
@@ -1382,10 +1372,7 @@ Awire|net@18|||900|pin@11||365|25|pin@12||365|-100
 Awire|net@19|||0|pin@12||365|-100|pin@13||40|-100
 Awire|net@20|||900|pin@10||40|-100|pin@13||40|-100
 Awire|net@21|||0|pin@5||-625|-100|pin@14||-690|-100
-Awire|net@25|||1800|XOR@0|B|267.5|134|pin@17||640|134
-Awire|net@26|||1800|XOR@0|A|268|123|pin@18||365|123
 Awire|net@28|||1800|pin@19||365|42|pin@2||374|42
-Awire|net@30|||0|XOR@0|F|237.5|131.5|pin@20||-645|131.5
 Awire|net@31|||900|pin@20||-645|131.5|pin@21||-645|49
 Awire|net@32|||1800|pin@3||-690|49|pin@21||-645|49
 Awire|net@37|||0|D-FF@1|Data|-281|49|pin@24||-335|49
@@ -1466,8 +1453,8 @@ Ngeneric:Facet-Center|art@0||0|0||||AV
 X
 
 # Cell XOR;1{lay}
-CXOR;1{lay}||mocmos|1556125038383|1556230947357||DRC_last_good_drc_area_date()G1556214803097|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1556214803097
-IInverter;1{lay}|Inverter@4||-1|16|||D5G4;
+CXOR;1{lay}||mocmos|1556125038383|1556561693575||DRC_last_good_drc_area_date()G1556563900918|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1556563900918
+IInverter;1{lay}|Inverter@4||-1|17.5|||D5G4;
 IInverter;1{lay}|Inverter@5||75|19|X||D5G4;
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-P-Active-Con|contact@0||19|30|10||R|
@@ -1486,7 +1473,7 @@ NN-Transistor|nmos@0||24|1|2||R|
 NN-Transistor|nmos@1||33|1|2||R|
 NN-Transistor|nmos@2||42|1|2||R|
 NN-Transistor|nmos@3||51|1|2||R|
-NPolysilicon-1-Pin|pin@4||-37|13||||
+NPolysilicon-1-Pin|pin@4||-37|14.5||||
 NPolysilicon-1-Pin|pin@9||110|54||||
 NPolysilicon-1-Pin|pin@10||110|16||||
 NPolysilicon-1-Pin|pin@13||5|13||||
@@ -1511,6 +1498,8 @@ NMetal-1-Pin|pin@43||-16|49||||
 NMetal-1-Pin|pin@44||-16|-20||||
 NMetal-1-Pin|pin@49||90|-20||||
 NMetal-1-Pin|pin@50||90|49||||
+NMetal-1-Pin|pin@51||-16|49||||
+NMetal-1-Pin|pin@52||-16|49||||
 NP-Transistor|pmos@0||24|30|12||R|
 NP-Transistor|pmos@1||33|30|12||R|
 NP-Transistor|pmos@2||42|30|12||R|
@@ -1545,7 +1534,7 @@ APolysilicon-1|net@100|||S900|nmos@3|poly-left|51|-3.5|pin@14||51|-10
 APolysilicon-1|net@102|||S900|pin@25||24|43|pmos@0|poly-right|24|39.5
 APolysilicon-1|net@108|||S0|pin@19||16|-11|pin@28||3|-11
 APolysilicon-1|net@109|||S900|pin@28||3|-11|pin@29||3|-22
-APolysilicon-1|net@112|||S900|pin@4||-37|13|pin@31||-37|-22
+APolysilicon-1|net@112|||S900|pin@4||-37|14.5|pin@31||-37|-22
 APolysilicon-1|net@113|||S0|pin@29||3|-22|pin@31||-37|-22
 APolysilicon-1|net@114|||S2700|pin@13||5|13|pin@32||5|43
 APolysilicon-1|net@115|||S1800|pin@32||5|43|pin@25||24|43
@@ -1562,11 +1551,10 @@ AMetal-1|net@136||1|S2700|contact@7||37.5|1|pin@38||37.5|14
 AMetal-1|net@137||1|S900|contact@1||19|1|substr@0||19|-20
 AMetal-1|net@138||1|S900|contact@15||55.5|1|substr@0||55.5|-20
 AN-Active|net@139|||S0|nmos@1|diff-top|29.25|1|contact@19||28|1
-AMetal-1|net@140|||S|contact@17||-4|13|Inverter@4|out|-4|13
-APolysilicon-1|net@146|||S1800|pin@4||-37|13|Inverter@4|A|-24|13
-AMetal-1|net@155||1|S0|well@0||37|49|pin@43||-16|49
-AMetal-1|net@156||1|S2700|Inverter@4|VCC|-16|44|pin@43||-16|49
-AMetal-1|net@157||1|S900|Inverter@4|VSS|-16|-8|pin@44||-16|-20
+AMetal-1|net@140|||S2700|contact@17||-4|13|Inverter@4|out|-4|14.5
+APolysilicon-1|net@146|||S1800|pin@4||-37|14.5|Inverter@4|A|-24|14.5
+AMetal-1|net@156||1|S2700|Inverter@4|VCC|-16|45.5|pin@43||-16|49
+AMetal-1|net@157||1|S900|Inverter@4|VSS|-16|-6.5|pin@44||-16|-20
 AMetal-1|net@158||1|S0|substr@0||38|-20|pin@44||-16|-20
 APolysilicon-1|net@167|||S900|pin@9||110|54|pin@10||110|16
 AMetal-1|net@172||1|S1800|substr@0||38|-20|pin@49||90|-20
@@ -1576,6 +1564,9 @@ AMetal-1|net@180||-1|S|Inverter@5|out|78|16|contact@23||78|16
 AMetal-1|net@181||1|S1800|well@0||37|49|pin@50||90|49
 AMetal-1|net@182||1|S2700|Inverter@5|VCC|90|47|pin@50||90|49
 AMetal-1|net@183||1|S2700|pin@49||90|-20|Inverter@5|VSS|90|-5
+AMetal-1|net@185||1|S2700|Inverter@4|VCC|-16|45.5|pin@51||-16|49
+AMetal-1|net@186||1|S0|well@0||37|49|pin@52||-16|49
+AMetal-1|net@187||1|S2700|Inverter@4|VCC|-16|45.5|pin@52||-16|49
 EA||D5G2;|pin@18||I
 EA_n||D5G2;|pin@32||U
 EB||D5G2;|pin@24||I
@@ -1586,48 +1577,35 @@ Eout||D5G2;|pin@35||O
 X
 
 # Cell XOR;1{net.als}
-CXOR;1{net.als}||artwork|1556133830595|1556221699627||FACET_message()S[#*************************************************,#  ALS Netlist file,#,"#  File Creation:    Thu Apr 25, 2019 12:48:19",#-------------------------------------------------,"","model Inverted_Inverter(A, out_, VCC, VSS)","nmos_0: nMOStran(A, out_, VSS)","pmos_0: PMOStran(A, out_, VCC)",substr_0: ground(VSS),well_0: power(VCC),set power = H@3,"","model Inverter(in_, out_, VCC, VSS)","nmos_0: nMOStran(in_, VSS, out_)","pmos_0: PMOStran(in_, VCC, out_)",substr_0: ground(VSS),well_0: power(VCC),set power = H@3,"","model XOR(A, B, out_, VCC, VSS, A_n, B_n)","Inverted_0: Inverted_Inverter(B, B_n, VCC, VSS)","Inverter_4: Inverter(A, A_n, VCC, VSS)","nmos_0: nMOStran(A_n, VSS, net_125)","nmos_1: nMOStran(A, net_125, out_)","nmos_2: nMOStran(B, out_, net_23)","nmos_3: nMOStran(B_n, net_23, VSS)","pmos_0: PMOStran(A_n, net_1, VCC)","pmos_1: PMOStran(A, VCC, net_18)","pmos_2: PMOStran(B, net_18, out_)","pmos_3: PMOStran(B_n, out_, net_31)",substr_0: ground(VSS),well_0: power(VCC),set power = H@3,"",#********* End of netlist *******************,"",# Built-in model for power,gate power(p),set p=H@3,t: delta=0,"",# Built-in model for ground,gate ground(g),set g=L@3,t: delta=0,"",# Built-in model for PMOStran,"function PMOStran(g, a1, a2)","i: g, a1, a2","o: a1, a2",t: delta=1e-8,"",# Built-in model for nMOStran,"function nMOStran(g, a1, a2)","i: g, a1, a2","o: a1, a2",t: delta=1e-8]
+CXOR;1{net.als}||artwork|1556133830595|1556568876377||FACET_message()S[#*************************************************,#  ALS Netlist file,#,"#  File Creation:    Mon Apr 29, 2019 13:14:36",#-------------------------------------------------,"","model XOR(A, B, F, VDD)",gnd_1: ground(gnd),"nmos_4: nMOStran(B, net_84, F)","nmos_5: nMOStran(net_84, B, F)","nmos_6: nMOStran(A, gnd, net_84)","pmos_4: PMOStran(B, F, A)","pmos_5: PMOStran(A, F, B)","pmos_6: PMOStran(A, net_84, VDD)",pwr_2: power(VDD),set power = H@3,"",#********* End of netlist *******************,"",# Built-in model for power,gate power(p),set p=H@3,t: delta=0,"",# Built-in model for PMOStran,"function PMOStran(g, a1, a2)","i: g, a1, a2","o: a1, a2",t: delta=1e-8,"",# Built-in model for nMOStran,"function nMOStran(g, a1, a2)","i: g, a1, a2","o: a1, a2",t: delta=1e-8,"",# Built-in model for ground,gate ground(g),set g=L@3,t: delta=0]
 Ngeneric:Facet-Center|art@0||0|0||||AV
 X
 
 # Cell XOR;1{sch}
-CXOR;1{sch}||schematic|1556123899925|1556176113702|
+CXOR;1{sch}||schematic|1556123899925|1556568855980|
 Ngeneric:Facet-Center|art@0||0|0||||AV
-NGlobal-Signal|conn@0||-73|33.5||||
-NGlobal-Signal|conn@1||-72.5|22.5||||
-NGlobal-Signal|conn@2||-42.5|25||||
 NGround|gnd@1||-48.5|23||||
 NTransistor|nmos@4||-65|17|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
 NTransistor|nmos@5||-57.5|16.5|||RR||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
 NTransistor|nmos@6||-50.5|29|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
-NWire_Pin|pin@39||-51.5|32||||
-NWire_Pin|pin@40||-57.5|32||||
-NWire_Pin|pin@41||-57.5|29||||
 NWire_Pin|pin@42||-63|21||||
 NWire_Pin|pin@43||-59.5|21||||
 NWire_Pin|pin@44||-46|15||||
 NWire_Pin|pin@45||-46|33.5||||
 NWire_Pin|pin@46||-48.5|33.5||||
 NWire_Pin|pin@48||-57.5|15||||
-NWire_Pin|pin@50||-66|21||||
-NWire_Pin|pin@51||-72.5|13.5||||
-NWire_Pin|pin@52||-53.5|13.5||||
-NWire_Pin|pin@53||-53.5|20.5||||
-NWire_Pin|pin@54||-55.5|20.5||||
-NWire_Pin|pin@55||-42.5|12.5||||
-NWire_Pin|pin@56||-60.5|12.5||||
-NWire_Pin|pin@57||-60.5|21||||
+NWire_Pin|pin@62||-57.5|29||||
+NWire_Pin|pin@63||-51.5|34||||
+NWire_Pin|pin@64||-72.5|34||||
+NWire_Pin|pin@65||-55.5|22||||
+NWire_Pin|pin@66||-66|22||||
+NWire_Pin|pin@67||-66|23||||
+NWire_Pin|pin@68||-72|23||||
+NWire_Pin|pin@69||-42|21||||
 NTransistor|pmos@4||-65|27|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
 NTransistor|pmos@5||-57.5|25||||2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
 NTransistor|pmos@6||-50.5|39|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
 NPower|pwr@2||-48.5|44||||
-Awire|net@67|||2700|nmos@6|g|-51.5|29|pin@39||-51.5|32
-Awire|net@68|||2700|pin@39||-51.5|32|pmos@6|g|-51.5|39
-Awire|net@70|||1800|conn@0||-73|32|pin@40||-57.5|32
-Awire|net@71|||1800|pin@40||-57.5|32|pin@39||-51.5|32
-Awire|net@73|||2700|pmos@5|g|-57.5|26|pin@41||-57.5|29
-Awire|net@74|||2700|pin@41||-57.5|29|pin@40||-57.5|32
-Awire|net@75|||1800|pmos@4|d|-63|29|pin@41||-57.5|29
 Awire|net@78|||900|pmos@4|s|-63|25|pin@42||-63|21
 Awire|net@79|||900|pin@42||-63|21|nmos@4|d|-63|19
 Awire|net@80|||2700|nmos@5|d|-59.5|18.5|pin@43||-59.5|21
@@ -1639,29 +1617,174 @@ Awire|net@87|||0|pin@45||-46|33.5|pin@46||-48.5|33.5
 Awire|net@90|||1800|nmos@4|s|-63|15|pin@48||-57.5|15
 Awire|net@91|||1800|pin@48||-57.5|15|pin@44||-46|15
 Awire|net@92|||900|nmos@5|g|-57.5|15.5|pin@48||-57.5|15
-Awire|net@95|||2700|nmos@4|g|-66|17|pin@50||-66|21
-Awire|net@96|||2700|pin@50||-66|21|pmos@4|g|-66|27
-Awire|net@97|||1800|conn@1||-72.5|21|pin@50||-66|21
-Awire|net@98|||900|conn@1||-72.5|21|pin@51||-72.5|13.5
-Awire|net@99|||1800|pin@51||-72.5|13.5|pin@52||-53.5|13.5
-Awire|net@100|||2700|pin@52||-53.5|13.5|pin@53||-53.5|20.5
-Awire|net@101|||2700|nmos@5|s|-55.5|18.5|pin@54||-55.5|20.5
-Awire|net@102|||2700|pin@54||-55.5|20.5|pmos@5|d|-55.5|23
-Awire|net@103|||0|pin@53||-53.5|20.5|pin@54||-55.5|20.5
-Awire|net@104|||900|conn@2||-42.5|23.5|pin@55||-42.5|12.5
-Awire|net@105|||0|pin@55||-42.5|12.5|pin@56||-60.5|12.5
-Awire|net@106|||1800|pin@42||-63|21|pin@57||-60.5|21
-Awire|net@107|||1800|pin@57||-60.5|21|pin@43||-59.5|21
-Awire|net@108|||2700|pin@56||-60.5|12.5|pin@57||-60.5|21
 Awire|net@109|||900|nmos@6|s|-48.5|27|gnd@1||-48.5|25
 Awire|net@110|||900|pwr@2||-48.5|44|pmos@6|d|-48.5|41
-EA||D5G2;|conn@0||I
-EB||D5G2;|conn@1||I
-EF||D5G2;|conn@2||O
+Awire|net@120|||1800|pmos@4|d|-63|29|pin@62||-57.5|29
+Awire|net@121|||1800|pin@62||-57.5|29|nmos@6|g|-51.5|29
+Awire|net@122|||2700|pmos@5|g|-57.5|26|pin@62||-57.5|29
+Awire|net@123|||900|pmos@6|g|-51.5|39|pin@63||-51.5|34
+Awire|net@124|||900|pin@63||-51.5|34|nmos@6|g|-51.5|29
+Awire|net@125|||0|pin@63||-51.5|34|pin@64||-72.5|34
+Awire|net@129|||2700|nmos@5|s|-55.5|18.5|pin@65||-55.5|22
+Awire|net@130|||2700|pin@65||-55.5|22|pmos@5|d|-55.5|23
+Awire|net@131|||2700|nmos@4|g|-66|17|pin@66||-66|22
+Awire|net@133|||0|pin@65||-55.5|22|pin@66||-66|22
+Awire|net@134|||2700|pin@66||-66|22|pin@67||-66|23
+Awire|net@135|||2700|pin@67||-66|23|pmos@4|g|-66|27
+Awire|net@136|||0|pin@67||-66|23|pin@68||-72|23
+Awire|net@137|||1800|pin@42||-63|21|pin@43||-59.5|21
+Awire|net@138|||1800|pin@43||-59.5|21|pin@69||-42|21
+EA||D5G2;|pin@64||I
+EB||D5G2;|pin@68||I
+EF||D5G2;|pin@69||O
 EVDD||D5G2;|pwr@2||P
 X
 
 # Cell XOR;1{vhdl}
-CXOR;1{vhdl}||artwork|1556133830565|1556221607106||FACET_message()S["-- VHDL automatically generated by the Electric VLSI Design System, version ",-- 9.07,"",-------------------- Cell Inverted_Inverter{lay} --------------------,entity Inverted_Inverter is port(A: in BIT; out_: out BIT; VCC: out BIT; VSS: ,    out BIT);,  end Inverted_Inverter;,"",architecture Inverted_Inverter_BODY of Inverted_Inverter is,"  component nMOStran port(poly_left, diff_top, diff_bottom: inout BIT);",    end component;,"  component PMOStran port(poly_left, diff_top, diff_bottom: inout BIT);",    end component;,  component ground port(metal_1_well: inout BIT);,    end component;,  component power port(metal_1_substrate: inout BIT);,    end component;,"",begin,"  nmos_0: nMOStran port map(A, out_, VSS);","  pmos_0: PMOStran port map(A, out_, VCC);",  substr_0: ground port map(VSS);,  well_0: power port map(VCC);,end Inverted_Inverter_BODY;,"",-------------------- Cell Inverter{lay} --------------------,entity Inverter is port(in_: in BIT; out_: out BIT; VCC: out BIT; VSS: out ,    BIT);,  end Inverter;,"",architecture Inverter_BODY of Inverter is,"  component nMOStran port(poly_left, diff_top, diff_bottom: inout BIT);",    end component;,"  component PMOStran port(poly_left, diff_top, diff_bottom: inout BIT);",    end component;,  component ground port(metal_1_well: inout BIT);,    end component;,  component power port(metal_1_substrate: inout BIT);,    end component;,"",begin,"  nmos_0: nMOStran port map(in_, VSS, out_);","  pmos_0: PMOStran port map(in_, VCC, out_);",  substr_0: ground port map(VSS);,  well_0: power port map(VCC);,end Inverter_BODY;,"",-------------------- Cell XOR{lay} --------------------,"entity XOR_ is port(A, B: in BIT; out_: out BIT; VCC: out BIT; VSS: out BIT; ","    A_n, B_n: inout BIT);",  end XOR_;,"",architecture XOR__BODY of XOR_ is,  component Inverted_Inverter port(A: in BIT; out_: out BIT; VCC: out BIT; VSS: ,    out BIT);,    end component;,  component Inverter port(in_: in BIT; out_: out BIT; VCC: out BIT; VSS: out ,    BIT);,    end component;,"  component nMOStran port(poly_left, diff_top, diff_bottom: inout BIT);",    end component;,"  component PMOStran port(poly_left, diff_top, diff_bottom: inout BIT);",    end component;,  component ground port(metal_1_well: inout BIT);,    end component;,  component power port(metal_1_substrate: inout BIT);,    end component;,"","  signal net_1, net_125, net_18, net_23, net_31: BIT;","",begin,"  Inverted_0: Inverted_Inverter port map(B, B_n, VCC, VSS);","  Inverter_4: Inverter port map(A, A_n, VCC, VSS);","  nmos_0: nMOStran port map(A_n, VSS, net_125);","  nmos_1: nMOStran port map(A, net_125, out_);","  nmos_2: nMOStran port map(B, out_, net_23);","  nmos_3: nMOStran port map(B_n, net_23, VSS);","  pmos_0: PMOStran port map(A_n, net_1, VCC);","  pmos_1: PMOStran port map(A, VCC, net_18);","  pmos_2: PMOStran port map(B, net_18, out_);","  pmos_3: PMOStran port map(B_n, out_, net_31);",  substr_0: ground port map(VSS);,  well_0: power port map(VCC);,end XOR__BODY;]
+CXOR;1{vhdl}||artwork|1556133830565|1556568876377||FACET_message()S["-- VHDL automatically generated by the Electric VLSI Design System, version ",-- 9.07,"",-------------------- Cell XOR{sch} --------------------,"entity XOR_ is port(A, B: in BIT; F: out BIT; VDD: out BIT);",  end XOR_;,"",architecture XOR__BODY of XOR_ is,  component ground port(gnd: out BIT);,    end component;,"  component nMOStran port(g: in BIT; s, d: inout BIT);",    end component;,"  component PMOStran port(g: in BIT; s, d: inout BIT);",    end component;,  component power port(vdd: out BIT);,    end component;,"","  signal gnd, net_84: BIT;","",begin,  gnd_1: ground port map(gnd);,"  nmos_4: nMOStran port map(B, net_84, F);","  nmos_5: nMOStran port map(net_84, B, F);","  nmos_6: nMOStran port map(A, gnd, net_84);","  pmos_4: PMOStran port map(B, F, A);","  pmos_5: PMOStran port map(A, F, B);","  pmos_6: PMOStran port map(A, net_84, VDD);",  pwr_2: power port map(VDD);,end XOR__BODY;]
+Ngeneric:Facet-Center|art@0||0|0||||AV
+X
+
+# Cell XOR_2_1;1{net.als}
+CXOR_2_1;1{net.als}||artwork|1556559032910|1556581043071||FACET_message()S[#*************************************************,#  ALS Netlist file,#,"#  File Creation:    Mon Apr 29, 2019 16:37:23",#-------------------------------------------------,"","model XOR_2_1(A, B, F, VDD, GND)",gnd_1: ground(GND),"nmos_0: nMOStran(net_194, net_36, F)","nmos_1: nMOStran(net_166, GND, net_36)","nmos_2: nMOStran(A, net_35, F)","nmos_3: nMOStran(B, GND, net_35)","nmos_4: nMOStran(A, GND, net_194)","nmos_5: nMOStran(B, GND, net_166)","pmos_2: PMOStran(net_166, net_25, VDD)","pmos_3: PMOStran(A, F, net_25)","pmos_4: PMOStran(net_194, net_25, VDD)","pmos_5: PMOStran(B, F, net_25)","pmos_6: PMOStran(A, net_194, VDD)","pmos_7: PMOStran(B, net_166, VDD)",pwr_0: power(VDD),set power = H@3,"",#********* End of netlist *******************,"",# Built-in model for power,gate power(p),set p=H@3,t: delta=0,"",# Built-in model for PMOStran,"function PMOStran(g, a1, a2)","i: g, a1, a2","o: a1, a2",t: delta=1e-8,"",# Built-in model for nMOStran,"function nMOStran(g, a1, a2)","i: g, a1, a2","o: a1, a2",t: delta=1e-8,"",# Built-in model for ground,gate ground(g),set g=L@3,t: delta=0]
+Ngeneric:Facet-Center|art@0||0|0||||AV
+X
+
+# Cell XOR_2_1;1{sch}
+CXOR_2_1;1{sch}||schematic|1556558791261|1556581029617|
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NGround|gnd@1||-34.5|-10.5||||
+NTransistor|nmos@0||-41|5.5|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
+NTransistor|nmos@1||-41|-1|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
+NTransistor|nmos@2||-29.5|5.5|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
+NTransistor|nmos@3||-29.5|-1.5|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
+NTransistor|nmos@4||-55|11.5|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
+NTransistor|nmos@5||-49.5|-5|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
+NWire_Pin|pin@0||-27|16.5||||
+NWire_Pin|pin@1||-39|16.5||||
+NWire_Pin|pin@2||-34|21||||
+NWire_Pin|pin@3||-39|-3.5||||
+NWire_Pin|pin@4||-33.5|11.5||||
+NWire_Pin|pin@5||-33.5|7.5||||
+NWire_Pin|pin@6||-33.5|9||||
+NWire_Pin|pin@7||-25.5|9||||
+NWire_Pin|pin@14||-59.5|15||||
+NWire_Pin|pin@43||-56|15||||
+NWire_Pin|pin@44||-50.5|0||||
+NWire_Pin|pin@45||-56|0||||
+NWire_Pin|pin@46||-34|23.5||||
+NWire_Pin|pin@47||-34.5|-3.5||||
+NWire_Pin|pin@48||-53|8||||
+NWire_Pin|pin@49||-61|8||||
+NWire_Pin|pin@50||-61|-8.5||||
+NWire_Pin|pin@51||-39|-8.5||||
+NWire_Pin|pin@52||-39|-6||||
+NWire_Pin|pin@53||-34.5|-6||||
+NWire_Pin|pin@54||-47.5|-8.5||||
+NWire_Pin|pin@55||-47.5|23.5||||
+NWire_Pin|pin@57||-53|19||||
+NWire_Pin|pin@58||-43.5|17.5||||
+NWire_Pin|pin@59||-43.5|1||||
+NWire_Pin|pin@60||-47.5|1||||
+NWire_Pin|pin@61||-47.5|-1||||
+NWire_Pin|pin@62||-50.5|-1.5||||
+NWire_Pin|pin@63||-45.5|5.5||||
+NWire_Pin|pin@64||-45.5|14.5||||
+NWire_Pin|pin@65||-53|14.5||||
+NWire_Pin|pin@66||-37|5.5||||
+NWire_Pin|pin@67||-37|10||||
+NWire_Pin|pin@68||-50.5|10||||
+NWire_Pin|pin@69||-50.5|16||||
+NWire_Pin|pin@70||-56|16||||
+NWire_Pin|pin@74||-50.5|13.5||||
+NWire_Pin|pin@75||-31.5|13.5||||
+NWire_Pin|pin@76||-31.5|12.5||||
+NWire_Pin|pin@77||-51.5|12.5||||
+NWire_Pin|pin@78||-51.5|0||||
+NTransistor|pmos@2||-41|19|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
+NTransistor|pmos@3||-41|13.5|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
+NTransistor|pmos@4||-29|19|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
+NTransistor|pmos@5||-29|13.5|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
+NTransistor|pmos@6||-55|21.5|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
+NTransistor|pmos@7||-49.5|4.5|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
+NPower|pwr@0||-34|25.5||||
+Awire|net@25|||900|pmos@4|s|-27|17|pin@0||-27|16.5
+Awire|net@26|||900|pin@0||-27|16.5|pmos@5|d|-27|15.5
+Awire|net@27|||900|pmos@2|s|-39|17|pin@1||-39|16.5
+Awire|net@28|||900|pin@1||-39|16.5|pmos@3|d|-39|15.5
+Awire|net@29|||0|pin@0||-27|16.5|pin@1||-39|16.5
+Awire|net@32|||1800|pmos@2|d|-39|21|pin@2||-34|21
+Awire|net@33|||1800|pin@2||-34|21|pmos@4|d|-27|21
+Awire|net@35|||900|nmos@2|s|-27.5|3.5|nmos@3|d|-27.5|0.5
+Awire|net@36|||900|nmos@0|s|-39|3.5|nmos@1|d|-39|1
+Awire|net@37|||900|nmos@1|s|-39|-3|pin@3||-39|-3.5
+Awire|net@40|||1800|pmos@3|s|-39|11.5|pin@4||-33.5|11.5
+Awire|net@41|||1800|pin@4||-33.5|11.5|pmos@5|s|-27|11.5
+Awire|net@42|||1800|nmos@0|d|-39|7.5|pin@5||-33.5|7.5
+Awire|net@43|||1800|pin@5||-33.5|7.5|nmos@2|d|-27.5|7.5
+Awire|net@45|||900|pin@4||-33.5|11.5|pin@6||-33.5|9
+Awire|net@46|||900|pin@6||-33.5|9|pin@5||-33.5|7.5
+Awire|net@47|||1800|pin@6||-33.5|9|pin@7||-25.5|9
+Awire|net@154|||0|pin@43||-56|15|pin@14||-59.5|15
+Awire|net@166|||900|pmos@7|s|-47.5|2.5|nmos@5|d|-47.5|-3
+Awire|net@168|||2700|pin@44||-50.5|0|pmos@7|g|-50.5|4.5
+Awire|net@170|||2700|pin@2||-34|21|pin@46||-34|23.5
+Awire|net@171|||2700|pin@46||-34|23.5|pwr@0||-34|25.5
+Awire|net@173|||0|nmos@3|s|-27.5|-3.5|pin@47||-34.5|-3.5
+Awire|net@174|||0|pin@47||-34.5|-3.5|pin@3||-39|-3.5
+Awire|net@176|||900|nmos@4|s|-53|9.5|pin@48||-53|8
+Awire|net@177|||0|pin@48||-53|8|pin@49||-61|8
+Awire|net@178|||900|pin@49||-61|8|pin@50||-61|-8.5
+Awire|net@180|||2700|pin@51||-39|-8.5|pin@52||-39|-6
+Awire|net@181|||2700|gnd@1||-34.5|-8.5|pin@53||-34.5|-6
+Awire|net@182|||2700|pin@53||-34.5|-6|pin@47||-34.5|-3.5
+Awire|net@183|||1800|pin@52||-39|-6|pin@53||-34.5|-6
+Awire|net@184|||1800|pin@50||-61|-8.5|pin@54||-47.5|-8.5
+Awire|net@185|||1800|pin@54||-47.5|-8.5|pin@51||-39|-8.5
+Awire|net@186|||900|nmos@5|s|-47.5|-7|pin@54||-47.5|-8.5
+Awire|net@187|||1800|pmos@6|d|-53|23.5|pin@55||-47.5|23.5
+Awire|net@188|||1800|pin@55||-47.5|23.5|pin@46||-34|23.5
+Awire|net@189|||2700|pmos@7|d|-47.5|6.5|pin@55||-47.5|23.5
+Awire|net@194|||2700|pin@57||-53|19|pmos@6|s|-53|19.5
+Awire|net@195|||0|pmos@4|g|-30|19|pin@57||-53|19
+Awire|net@196|||450|pmos@2|g|-42|19|pin@58||-43.5|17.5
+Awire|net@197|||900|pin@58||-43.5|17.5|pin@59||-43.5|1
+Awire|net@199|||2700|pin@60||-47.5|1|pmos@7|s|-47.5|2.5
+Awire|net@200|||0|pin@59||-43.5|1|pin@60||-47.5|1
+Awire|net@202|||2700|pin@61||-47.5|-1|pin@60||-47.5|1
+Awire|net@203|||0|nmos@1|g|-42|-1|pin@61||-47.5|-1
+Awire|net@204|||2700|nmos@5|g|-50.5|-5|pin@62||-50.5|-1.5
+Awire|net@205|||2700|pin@62||-50.5|-1.5|pin@44||-50.5|0
+Awire|net@206|||0|nmos@3|g|-30.5|-1.5|pin@62||-50.5|-1.5
+Awire|net@207|||0|nmos@0|g|-42|5.5|pin@63||-45.5|5.5
+Awire|net@208|||2700|pin@63||-45.5|5.5|pin@64||-45.5|14.5
+Awire|net@209|||2700|nmos@4|d|-53|13.5|pin@65||-53|14.5
+Awire|net@210|||2700|pin@65||-53|14.5|pin@57||-53|19
+Awire|net@211|||0|pin@64||-45.5|14.5|pin@65||-53|14.5
+Awire|net@212|||0|nmos@2|g|-30.5|5.5|pin@66||-37|5.5
+Awire|net@213|||2700|pin@66||-37|5.5|pin@67||-37|10
+Awire|net@214|||0|pin@67||-37|10|pin@68||-50.5|10
+Awire|net@216|||900|pmos@6|g|-56|21.5|pin@70||-56|16
+Awire|net@217|||900|pin@70||-56|16|pin@43||-56|15
+Awire|net@218|||0|pin@69||-50.5|16|pin@70||-56|16
+Awire|net@225|||2700|nmos@4|g|-56|11.5|pin@43||-56|15
+Awire|net@226|||2700|pin@68||-50.5|10|pin@74||-50.5|13.5
+Awire|net@227|||2700|pin@74||-50.5|13.5|pin@69||-50.5|16
+Awire|net@228|||0|pmos@3|g|-42|13.5|pin@74||-50.5|13.5
+Awire|net@229|||0|pmos@5|g|-30|13.5|pin@75||-31.5|13.5
+Awire|net@230|||900|pin@75||-31.5|13.5|pin@76||-31.5|12.5
+Awire|net@231|||0|pin@76||-31.5|12.5|pin@77||-51.5|12.5
+Awire|net@232|||0|pin@44||-50.5|0|pin@78||-51.5|0
+Awire|net@233|||0|pin@78||-51.5|0|pin@45||-56|0
+Awire|net@234|||900|pin@77||-51.5|12.5|pin@78||-51.5|0
+EA||D5G2;|pin@14||I
+EB||D5G2;|pin@45||I
+EF||D5G2;|pin@7||O
+EGND||D5G2;|gnd@1||G
+EVDD||D5G2;|pwr@0||P
+X
+
+# Cell XOR_2_1;1{vhdl}
+CXOR_2_1;1{vhdl}||artwork|1556559032908|1556581043071||FACET_message()S["-- VHDL automatically generated by the Electric VLSI Design System, version ",-- 9.07,"",-------------------- Cell XOR_2_1{sch} --------------------,"entity XOR_2_1 is port(A, B: in BIT; F: out BIT; VDD: out BIT; GND: out BIT);",  end XOR_2_1;,"",architecture XOR_2_1_BODY of XOR_2_1 is,  component ground port(gnd: out BIT);,    end component;,"  component nMOStran port(g: in BIT; s, d: inout BIT);",    end component;,"  component PMOStran port(g: in BIT; s, d: inout BIT);",    end component;,  component power port(vdd: out BIT);,    end component;,"","  signal net_166, net_194, net_25, net_35, net_36: BIT;","",begin,  gnd_1: ground port map(GND);,"  nmos_0: nMOStran port map(net_194, net_36, F);","  nmos_1: nMOStran port map(net_166, GND, net_36);","  nmos_2: nMOStran port map(A, net_35, F);","  nmos_3: nMOStran port map(B, GND, net_35);","  nmos_4: nMOStran port map(A, GND, net_194);","  nmos_5: nMOStran port map(B, GND, net_166);","  pmos_2: PMOStran port map(net_166, net_25, VDD);","  pmos_3: PMOStran port map(A, F, net_25);","  pmos_4: PMOStran port map(net_194, net_25, VDD);","  pmos_5: PMOStran port map(B, F, net_25);","  pmos_6: PMOStran port map(A, net_194, VDD);","  pmos_7: PMOStran port map(B, net_166, VDD);",  pwr_0: power port map(VDD);,end XOR_2_1_BODY;]
 Ngeneric:Facet-Center|art@0||0|0||||AV
 X
