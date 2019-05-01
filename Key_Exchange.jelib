@@ -16,12 +16,12 @@ Lsclib|sclib
 Tmocmos|ScaleFORmocmos()D300.0|mocmosAnalog()BT|mocmosNumberOfMetalLayers()I3
 
 # Cell 4_bit_Adder;1{net.als}
-C4_bit_Adder;1{net.als}||artwork|1556177623978|1556604872579||FACET_message()S[#*************************************************,#  ALS Netlist file,#,"#  File Creation:    Mon Apr 29, 2019 23:14:32",#-------------------------------------------------,"","model NAND_(A, B, F)",gnd_0: ground(gnd),"nmos_0: nMOStran(A, net_2, F)","nmos_1: nMOStran(B, gnd, net_2)","pmos_0: PMOStran(B, F, vdd)","pmos_1: PMOStran(A, F, vdd)",pwr_0: power(vdd),set power = H@3,"","model XOR_2_1(A, B, F, VDD, GND)",gnd_1: ground(GND),"nmos_0: nMOStran(net_194, net_36, F)","nmos_1: nMOStran(net_196, GND, net_36)","nmos_2: nMOStran(A, net_35, F)","nmos_3: nMOStran(B, GND, net_35)","nmos_4: nMOStran(A, GND, net_194)","nmos_5: nMOStran(B, GND, net_196)","pmos_2: PMOStran(net_196, net_267, VDD)","pmos_3: PMOStran(A, F, net_267)","pmos_4: PMOStran(net_194, net_266, VDD)","pmos_5: PMOStran(B, F, net_266)","pmos_6: PMOStran(A, net_194, VDD)","pmos_7: PMOStran(B, net_196, VDD)",pwr_0: power(VDD),set power = H@3,"","model Full_Adder(A, B, C_in, C_out, S, VDD, GND)",gnd_0: ground(GND),pwr_0: power(VDD),"NAND_0: NAND_(net_55, C_in, net_0)","NAND_1: NAND_(net_0, net_0, net_19)","NAND_2: NAND_(net_19, net_19, net_7)","NAND_3: NAND_(net_7, net_4, C_out)","NAND_4: NAND_(net_1, net_1, net_4)","NAND_5: NAND_(A, B, net_28)","NAND_6: NAND_(net_28, net_28, net_1)","XOR_2_1_0: XOR_2_1(net_55, C_in, S, VDD, GND)","XOR_2_1_2: XOR_2_1(A, B, net_55, VDD, GND)",set power = H@3,"","model 4_bit_Adder(A0, A1, A2, A3, B0, B1, B2, B3, Cout, S0, S1, S2, S3, VDD)",gnd_0: ground(gnd),pwr_0: power(VDD),"Full_Add_0: Full_Adder(A2, B2, net_4, net_0, S2, VDD, gnd)","Full_Add_1: Full_Adder(A1, B1, net_8, net_4, S1, VDD, gnd)","Full_Add_2: Full_Adder(A0, B0, n0, net_8, S0, VDD, gnd)","Full_Add_3: Full_Adder(A3, B3, net_0, Cout, S3, VDD, gnd)",set power = H@3,"",#********* End of netlist *******************,"",# Built-in model for PMOStran,"function PMOStran(g, a1, a2)","i: g, a1, a2","o: a1, a2",t: delta=1e-8,"",# Built-in model for nMOStran,"function nMOStran(g, a1, a2)","i: g, a1, a2","o: a1, a2",t: delta=1e-8,"",# Built-in model for power,gate power(p),set p=H@3,t: delta=0,"",# Built-in model for ground,gate ground(g),set g=L@3,t: delta=0]
+C4_bit_Adder;1{net.als}||artwork|1556177623978|1556685178671||FACET_message()S[#*************************************************,#  ALS Netlist file,#,"#  File Creation:    Tue Apr 30, 2019 21:32:58",#-------------------------------------------------,"","model NAND_(A, B, F)",gnd_0: ground(gnd),"nmos_0: nMOStran(A, net_2, F)","nmos_1: nMOStran(B, gnd, net_2)","pmos_0: PMOStran(B, F, vdd)","pmos_1: PMOStran(A, F, vdd)",pwr_0: power(vdd),set power = H@3,"","model XOR_2_1(A, B, F, VDD, GND)",gnd_1: ground(GND),"nmos_0: nMOStran(net_194, net_36, F)","nmos_1: nMOStran(net_196, GND, net_36)","nmos_2: nMOStran(A, net_35, F)","nmos_3: nMOStran(B, GND, net_35)","nmos_4: nMOStran(A, GND, net_194)","nmos_5: nMOStran(B, GND, net_196)","pmos_2: PMOStran(net_196, net_267, VDD)","pmos_3: PMOStran(A, F, net_267)","pmos_4: PMOStran(net_194, net_266, VDD)","pmos_5: PMOStran(B, F, net_266)","pmos_6: PMOStran(A, net_194, VDD)","pmos_7: PMOStran(B, net_196, VDD)",pwr_0: power(VDD),set power = H@3,"","model Full_Adder(A, B, C_in, C_out, S, VDD, GND)",gnd_0: ground(GND),pwr_0: power(VDD),"NAND_0: NAND_(net_55, C_in, net_0)","NAND_1: NAND_(net_0, net_0, net_19)","NAND_2: NAND_(net_19, net_19, net_7)","NAND_3: NAND_(net_7, net_4, C_out)","NAND_4: NAND_(net_1, net_1, net_4)","NAND_5: NAND_(A, B, net_28)","NAND_6: NAND_(net_28, net_28, net_1)","XOR_2_1_0: XOR_2_1(net_55, C_in, S, VDD, GND)","XOR_2_1_2: XOR_2_1(A, B, net_55, VDD, GND)",set power = H@3,"","model 4_bit_Adder(A0, A1, A2, A3, B0, B1, B2, B3, Cin, Cout, S0, S1, S2, S3, VDD)",gnd_0: ground(gnd),pwr_0: power(VDD),"Full_Add_0: Full_Adder(A2, B2, net_4, net_0, S2, VDD, gnd)","Full_Add_1: Full_Adder(A1, B1, net_8, net_4, S1, VDD, gnd)","Full_Add_2: Full_Adder(A0, B0, Cin, net_8, S0, VDD, gnd)","Full_Add_3: Full_Adder(A3, B3, net_0, Cout, S3, VDD, gnd)",set power = H@3,"",#********* End of netlist *******************,"",# Built-in model for PMOStran,"function PMOStran(g, a1, a2)","i: g, a1, a2","o: a1, a2",t: delta=1e-8,"",# Built-in model for nMOStran,"function nMOStran(g, a1, a2)","i: g, a1, a2","o: a1, a2",t: delta=1e-8,"",# Built-in model for power,gate power(p),set p=H@3,t: delta=0,"",# Built-in model for ground,gate ground(g),set g=L@3,t: delta=0]
 Ngeneric:Facet-Center|art@0||0|0||||AV
 X
 
 # Cell 4_bit_Adder;1{sch}
-C4_bit_Adder;1{sch}||schematic|1556176788783|1556606917470|
+C4_bit_Adder;1{sch}||schematic|1556176788783|1556685399296|
 IFull_Adder;1{sch}|Full_Add@0||-0.5|0|||D5G4;
 IFull_Adder;1{sch}|Full_Add@1||147.5|0|||D5G4;
 IFull_Adder;1{sch}|Full_Add@2||295|0.5|||D5G4;
@@ -59,6 +59,7 @@ NWire_Pin|pin@39||234.5|-90.5||||
 NWire_Pin|pin@40||87|-93.5||||
 NWire_Pin|pin@41||-61|-93||||
 NWire_Pin|pin@42||-209|-94||||
+NWire_Pin|pin@43||268|12||||
 NPower|pwr@0||-46.5|73.5||||
 Awire|net@0|||0|Full_Add@0|C_out|-168|-15.5|pin@0||-180.5|-15.5
 Awire|net@1|||2700|pin@0||-180.5|-15.5|pin@1||-180.5|11
@@ -102,6 +103,7 @@ Awire|net@59|||900|Full_Add@2|S|234.5|-67.5|pin@39||234.5|-90.5
 Awire|net@60|||900|Full_Add@1|S|87|-68|pin@40||87|-93.5
 Awire|net@61|||900|Full_Add@0|S|-61|-68|pin@41||-61|-93
 Awire|net@62|||900|Full_Add@3|S|-209|-68|pin@42||-209|-94
+Awire|net@63|||1800|Full_Add@2|C_in|258|12|pin@43||268|12
 EA0||D5G2;|pin@23||I
 EA1||D5G2;|pin@22||I
 EA2||D5G2;|pin@21||I
@@ -110,7 +112,9 @@ EB0||D5G2;|pin@35||I
 EB1||D5G2;|pin@37||I
 EB2||D5G2;|pin@36||I
 EB3||D5G2;|pin@38||I
+ECin||D5G2;|pin@43||I
 ECout||D5G2;|pin@32||O
+EGND||D5G2;|gnd@0||G
 ES0||D5G2;|pin@39||O
 ES1||D5G2;|pin@40||O
 ES2||D5G2;|pin@41||O
@@ -119,7 +123,7 @@ EVDD||D5G2;|pwr@0||P
 X
 
 # Cell 4_bit_Adder;1{vhdl}
-C4_bit_Adder;1{vhdl}||artwork|1556177623978|1556604238521||FACET_message()S["-- VHDL automatically generated by the Electric VLSI Design System, version ",-- 9.07,"",-------------------- Cell NAND{sch} --------------------,"entity NAND_ is port(A, B: in BIT; F: out BIT);",  end NAND_;,"",architecture NAND__BODY of NAND_ is,  component ground port(gnd: out BIT);,    end component;,"  component nMOStran port(g: in BIT; s, d: inout BIT);",    end component;,"  component PMOStran port(g: in BIT; s, d: inout BIT);",    end component;,  component power port(vdd: out BIT);,    end component;,"","  signal gnd, net_2, vdd: BIT;","",begin,  gnd_0: ground port map(gnd);,"  nmos_0: nMOStran port map(A, net_2, F);","  nmos_1: nMOStran port map(B, gnd, net_2);","  pmos_0: PMOStran port map(B, F, vdd);","  pmos_1: PMOStran port map(A, F, vdd);",  pwr_0: power port map(vdd);,end NAND__BODY;,"",-------------------- Cell XOR_2_1{sch} --------------------,"entity XOR_2_1 is port(A, B: in BIT; F: out BIT; VDD: out BIT; GND: out BIT);",  end XOR_2_1;,"",architecture XOR_2_1_BODY of XOR_2_1 is,  component ground port(gnd: out BIT);,    end component;,"  component nMOStran port(g: in BIT; s, d: inout BIT);",    end component;,"  component PMOStran port(g: in BIT; s, d: inout BIT);",    end component;,  component power port(vdd: out BIT);,    end component;,"","  signal net_194, net_196, net_266, net_267, net_35, net_36: BIT;","",begin,  gnd_1: ground port map(GND);,"  nmos_0: nMOStran port map(net_194, net_36, F);","  nmos_1: nMOStran port map(net_196, GND, net_36);","  nmos_2: nMOStran port map(A, net_35, F);","  nmos_3: nMOStran port map(B, GND, net_35);","  nmos_4: nMOStran port map(A, GND, net_194);","  nmos_5: nMOStran port map(B, GND, net_196);","  pmos_2: PMOStran port map(net_196, net_267, VDD);","  pmos_3: PMOStran port map(A, F, net_267);","  pmos_4: PMOStran port map(net_194, net_266, VDD);","  pmos_5: PMOStran port map(B, F, net_266);","  pmos_6: PMOStran port map(A, net_194, VDD);","  pmos_7: PMOStran port map(B, net_196, VDD);",  pwr_0: power port map(VDD);,end XOR_2_1_BODY;,"",-------------------- Cell Full_Adder{sch} --------------------,"entity Full_Adder is port(A, B, C_in: in BIT; C_out, S: out BIT; VDD: out BIT; ",    GND: out BIT);,  end Full_Adder;,"",architecture Full_Adder_BODY of Full_Adder is,  component ground port(gnd: out BIT);,    end component;,  component power port(vdd: out BIT);,    end component;,"  component NAND_ port(A, B: in BIT; F: out BIT);",    end component;,"  component XOR_2_1 port(A, B: in BIT; F: out BIT; VDD: out BIT; GND: out ",    BIT);,    end component;,"","  signal net_0, net_1, net_19, net_28, net_4, net_55, net_7: BIT;","",begin,  gnd_0: ground port map(GND);,  pwr_0: power port map(VDD);,"  NAND_0: NAND_ port map(net_55, C_in, net_0);","  NAND_1: NAND_ port map(net_0, net_0, net_19);","  NAND_2: NAND_ port map(net_19, net_19, net_7);","  NAND_3: NAND_ port map(net_7, net_4, C_out);","  NAND_4: NAND_ port map(net_1, net_1, net_4);","  NAND_5: NAND_ port map(A, B, net_28);","  NAND_6: NAND_ port map(net_28, net_28, net_1);","  XOR_2_1_0: XOR_2_1 port map(net_55, C_in, S, VDD, GND);","  XOR_2_1_2: XOR_2_1 port map(A, B, net_55, VDD, GND);",end Full_Adder_BODY;,"",-------------------- Cell 4_bit_Adder{sch} --------------------,"entity E_4_bit_Adder is port(A0, A1, A2, A3, B0, B1, B2, B3: in BIT; Cout, S0, ","    S1, S2, S3: out BIT; VDD: out BIT);",  end E_4_bit_Adder;,"",architecture E_4_bit_Adder_BODY of E_4_bit_Adder is,  component ground port(gnd: out BIT);,    end component;,  component power port(vdd: out BIT);,    end component;,"  component Full_Adder port(A, B, C_in: in BIT; C_out, S: out BIT; VDD: out ",    BIT; GND: out BIT);,    end component;,"","  signal gnd, net_0, net_4, net_8: BIT;","",begin,  gnd_0: ground port map(gnd);,  pwr_0: power port map(VDD);,"  Full_Add_0: Full_Adder port map(A2, B2, net_4, net_0, S2, VDD, gnd);","  Full_Add_1: Full_Adder port map(A1, B1, net_8, net_4, S1, VDD, gnd);","  Full_Add_2: Full_Adder port map(A0, B0, open, net_8, S0, VDD, gnd);","  Full_Add_3: Full_Adder port map(A3, B3, net_0, Cout, S3, VDD, gnd);",end E_4_bit_Adder_BODY;]
+C4_bit_Adder;1{vhdl}||artwork|1556177623978|1556685178671||FACET_message()S["-- VHDL automatically generated by the Electric VLSI Design System, version ",-- 9.07,"",-------------------- Cell NAND{sch} --------------------,"entity NAND_ is port(A, B: in BIT; F: out BIT);",  end NAND_;,"",architecture NAND__BODY of NAND_ is,  component ground port(gnd: out BIT);,    end component;,"  component nMOStran port(g: in BIT; s, d: inout BIT);",    end component;,"  component PMOStran port(g: in BIT; s, d: inout BIT);",    end component;,  component power port(vdd: out BIT);,    end component;,"","  signal gnd, net_2, vdd: BIT;","",begin,  gnd_0: ground port map(gnd);,"  nmos_0: nMOStran port map(A, net_2, F);","  nmos_1: nMOStran port map(B, gnd, net_2);","  pmos_0: PMOStran port map(B, F, vdd);","  pmos_1: PMOStran port map(A, F, vdd);",  pwr_0: power port map(vdd);,end NAND__BODY;,"",-------------------- Cell XOR_2_1{sch} --------------------,"entity XOR_2_1 is port(A, B: in BIT; F: out BIT; VDD: out BIT; GND: out BIT);",  end XOR_2_1;,"",architecture XOR_2_1_BODY of XOR_2_1 is,  component ground port(gnd: out BIT);,    end component;,"  component nMOStran port(g: in BIT; s, d: inout BIT);",    end component;,"  component PMOStran port(g: in BIT; s, d: inout BIT);",    end component;,  component power port(vdd: out BIT);,    end component;,"","  signal net_194, net_196, net_266, net_267, net_35, net_36: BIT;","",begin,  gnd_1: ground port map(GND);,"  nmos_0: nMOStran port map(net_194, net_36, F);","  nmos_1: nMOStran port map(net_196, GND, net_36);","  nmos_2: nMOStran port map(A, net_35, F);","  nmos_3: nMOStran port map(B, GND, net_35);","  nmos_4: nMOStran port map(A, GND, net_194);","  nmos_5: nMOStran port map(B, GND, net_196);","  pmos_2: PMOStran port map(net_196, net_267, VDD);","  pmos_3: PMOStran port map(A, F, net_267);","  pmos_4: PMOStran port map(net_194, net_266, VDD);","  pmos_5: PMOStran port map(B, F, net_266);","  pmos_6: PMOStran port map(A, net_194, VDD);","  pmos_7: PMOStran port map(B, net_196, VDD);",  pwr_0: power port map(VDD);,end XOR_2_1_BODY;,"",-------------------- Cell Full_Adder{sch} --------------------,"entity Full_Adder is port(A, B, C_in: in BIT; C_out, S: out BIT; VDD: out BIT; ",    GND: out BIT);,  end Full_Adder;,"",architecture Full_Adder_BODY of Full_Adder is,  component ground port(gnd: out BIT);,    end component;,  component power port(vdd: out BIT);,    end component;,"  component NAND_ port(A, B: in BIT; F: out BIT);",    end component;,"  component XOR_2_1 port(A, B: in BIT; F: out BIT; VDD: out BIT; GND: out ",    BIT);,    end component;,"","  signal net_0, net_1, net_19, net_28, net_4, net_55, net_7: BIT;","",begin,  gnd_0: ground port map(GND);,  pwr_0: power port map(VDD);,"  NAND_0: NAND_ port map(net_55, C_in, net_0);","  NAND_1: NAND_ port map(net_0, net_0, net_19);","  NAND_2: NAND_ port map(net_19, net_19, net_7);","  NAND_3: NAND_ port map(net_7, net_4, C_out);","  NAND_4: NAND_ port map(net_1, net_1, net_4);","  NAND_5: NAND_ port map(A, B, net_28);","  NAND_6: NAND_ port map(net_28, net_28, net_1);","  XOR_2_1_0: XOR_2_1 port map(net_55, C_in, S, VDD, GND);","  XOR_2_1_2: XOR_2_1 port map(A, B, net_55, VDD, GND);",end Full_Adder_BODY;,"",-------------------- Cell 4_bit_Adder{sch} --------------------,"entity E_4_bit_Adder is port(A0, A1, A2, A3, B0, B1, B2, B3, Cin: in BIT; Cout, ","    S0, S1, S2, S3: out BIT; VDD: out BIT);",  end E_4_bit_Adder;,"",architecture E_4_bit_Adder_BODY of E_4_bit_Adder is,  component ground port(gnd: out BIT);,    end component;,  component power port(vdd: out BIT);,    end component;,"  component Full_Adder port(A, B, C_in: in BIT; C_out, S: out BIT; VDD: out ",    BIT; GND: out BIT);,    end component;,"","  signal gnd, net_0, net_4, net_8: BIT;","",begin,  gnd_0: ground port map(gnd);,  pwr_0: power port map(VDD);,"  Full_Add_0: Full_Adder port map(A2, B2, net_4, net_0, S2, VDD, gnd);","  Full_Add_1: Full_Adder port map(A1, B1, net_8, net_4, S1, VDD, gnd);","  Full_Add_2: Full_Adder port map(A0, B0, Cin, net_8, S0, VDD, gnd);","  Full_Add_3: Full_Adder port map(A3, B3, net_0, Cout, S3, VDD, gnd);",end E_4_bit_Adder_BODY;]
 Ngeneric:Facet-Center|art@0||0|0||||AV
 X
 
@@ -1532,7 +1536,7 @@ Emod3||D5G2;|pin@3||I
 X
 
 # Cell Full_Adder;1{net.als}
-CFull_Adder;1{net.als}||artwork|1556176194330|1556603839357||FACET_message()S[#*************************************************,#  ALS Netlist file,#,"#  File Creation:    Mon Apr 29, 2019 22:57:19",#-------------------------------------------------,"","model NAND_(A, B, F)",gnd_0: ground(gnd),"nmos_0: nMOStran(A, net_2, F)","nmos_1: nMOStran(B, gnd, net_2)","pmos_0: PMOStran(B, F, vdd)","pmos_1: PMOStran(A, F, vdd)",pwr_0: power(vdd),set power = H@3,"","model XOR_2_1(A, B, F, VDD, GND)",gnd_1: ground(GND),"nmos_0: nMOStran(net_194, net_36, F)","nmos_1: nMOStran(net_196, GND, net_36)","nmos_2: nMOStran(A, net_35, F)","nmos_3: nMOStran(B, GND, net_35)","nmos_4: nMOStran(A, GND, net_194)","nmos_5: nMOStran(B, GND, net_196)","pmos_2: PMOStran(net_196, net_267, VDD)","pmos_3: PMOStran(A, F, net_267)","pmos_4: PMOStran(net_194, net_266, VDD)","pmos_5: PMOStran(B, F, net_266)","pmos_6: PMOStran(A, net_194, VDD)","pmos_7: PMOStran(B, net_196, VDD)",pwr_0: power(VDD),set power = H@3,"","model Full_Adder(A, B, C_in, C_out, S, VDD, GND)",gnd_0: ground(GND),pwr_0: power(VDD),"NAND_0: NAND_(net_55, C_in, net_0)","NAND_1: NAND_(net_0, net_0, net_19)","NAND_2: NAND_(net_19, net_19, net_7)","NAND_3: NAND_(net_7, net_4, C_out)","NAND_4: NAND_(net_1, net_1, net_4)","NAND_5: NAND_(A, B, net_28)","NAND_6: NAND_(net_28, net_28, net_1)","XOR_2_1_0: XOR_2_1(net_55, C_in, S, VDD, GND)","XOR_2_1_2: XOR_2_1(A, B, net_55, VDD, GND)",set power = H@3,"",#********* End of netlist *******************,"",# Built-in model for PMOStran,"function PMOStran(g, a1, a2)","i: g, a1, a2","o: a1, a2",t: delta=1e-8,"",# Built-in model for nMOStran,"function nMOStran(g, a1, a2)","i: g, a1, a2","o: a1, a2",t: delta=1e-8,"",# Built-in model for power,gate power(p),set p=H@3,t: delta=0,"",# Built-in model for ground,gate ground(g),set g=L@3,t: delta=0]
+CFull_Adder;1{net.als}||artwork|1556176194330|1556685088076||FACET_message()S[#*************************************************,#  ALS Netlist file,#,"#  File Creation:    Tue Apr 30, 2019 21:31:28",#-------------------------------------------------,"","model NAND_(A, B, F)",gnd_0: ground(gnd),"nmos_0: nMOStran(A, net_2, F)","nmos_1: nMOStran(B, gnd, net_2)","pmos_0: PMOStran(B, F, vdd)","pmos_1: PMOStran(A, F, vdd)",pwr_0: power(vdd),set power = H@3,"","model XOR_2_1(A, B, F, VDD, GND)",gnd_1: ground(GND),"nmos_0: nMOStran(net_194, net_36, F)","nmos_1: nMOStran(net_196, GND, net_36)","nmos_2: nMOStran(A, net_35, F)","nmos_3: nMOStran(B, GND, net_35)","nmos_4: nMOStran(A, GND, net_194)","nmos_5: nMOStran(B, GND, net_196)","pmos_2: PMOStran(net_196, net_267, VDD)","pmos_3: PMOStran(A, F, net_267)","pmos_4: PMOStran(net_194, net_266, VDD)","pmos_5: PMOStran(B, F, net_266)","pmos_6: PMOStran(A, net_194, VDD)","pmos_7: PMOStran(B, net_196, VDD)",pwr_0: power(VDD),set power = H@3,"","model Full_Adder(A, B, C_in, C_out, S, VDD, GND)",gnd_0: ground(GND),pwr_0: power(VDD),"NAND_0: NAND_(net_55, C_in, net_0)","NAND_1: NAND_(net_0, net_0, net_19)","NAND_2: NAND_(net_19, net_19, net_7)","NAND_3: NAND_(net_7, net_4, C_out)","NAND_4: NAND_(net_1, net_1, net_4)","NAND_5: NAND_(A, B, net_28)","NAND_6: NAND_(net_28, net_28, net_1)","XOR_2_1_0: XOR_2_1(net_55, C_in, S, VDD, GND)","XOR_2_1_2: XOR_2_1(A, B, net_55, VDD, GND)",set power = H@3,"",#********* End of netlist *******************,"",# Built-in model for PMOStran,"function PMOStran(g, a1, a2)","i: g, a1, a2","o: a1, a2",t: delta=1e-8,"",# Built-in model for nMOStran,"function nMOStran(g, a1, a2)","i: g, a1, a2","o: a1, a2",t: delta=1e-8,"",# Built-in model for power,gate power(p),set p=H@3,t: delta=0,"",# Built-in model for ground,gate ground(g),set g=L@3,t: delta=0]
 Ngeneric:Facet-Center|art@0||0|0||||AV
 X
 
@@ -1671,7 +1675,7 @@ EVDD||D5G2;|pwr@0||P
 X
 
 # Cell Full_Adder;1{vhdl}
-CFull_Adder;1{vhdl}||artwork|1556176194320|1556603839357||FACET_message()S["-- VHDL automatically generated by the Electric VLSI Design System, version ",-- 9.07,"",-------------------- Cell NAND{sch} --------------------,"entity NAND_ is port(A, B: in BIT; F: out BIT);",  end NAND_;,"",architecture NAND__BODY of NAND_ is,  component ground port(gnd: out BIT);,    end component;,"  component nMOStran port(g: in BIT; s, d: inout BIT);",    end component;,"  component PMOStran port(g: in BIT; s, d: inout BIT);",    end component;,  component power port(vdd: out BIT);,    end component;,"","  signal gnd, net_2, vdd: BIT;","",begin,  gnd_0: ground port map(gnd);,"  nmos_0: nMOStran port map(A, net_2, F);","  nmos_1: nMOStran port map(B, gnd, net_2);","  pmos_0: PMOStran port map(B, F, vdd);","  pmos_1: PMOStran port map(A, F, vdd);",  pwr_0: power port map(vdd);,end NAND__BODY;,"",-------------------- Cell XOR_2_1{sch} --------------------,"entity XOR_2_1 is port(A, B: in BIT; F: out BIT; VDD: out BIT; GND: out BIT);",  end XOR_2_1;,"",architecture XOR_2_1_BODY of XOR_2_1 is,  component ground port(gnd: out BIT);,    end component;,"  component nMOStran port(g: in BIT; s, d: inout BIT);",    end component;,"  component PMOStran port(g: in BIT; s, d: inout BIT);",    end component;,  component power port(vdd: out BIT);,    end component;,"","  signal net_194, net_196, net_266, net_267, net_35, net_36: BIT;","",begin,  gnd_1: ground port map(GND);,"  nmos_0: nMOStran port map(net_194, net_36, F);","  nmos_1: nMOStran port map(net_196, GND, net_36);","  nmos_2: nMOStran port map(A, net_35, F);","  nmos_3: nMOStran port map(B, GND, net_35);","  nmos_4: nMOStran port map(A, GND, net_194);","  nmos_5: nMOStran port map(B, GND, net_196);","  pmos_2: PMOStran port map(net_196, net_267, VDD);","  pmos_3: PMOStran port map(A, F, net_267);","  pmos_4: PMOStran port map(net_194, net_266, VDD);","  pmos_5: PMOStran port map(B, F, net_266);","  pmos_6: PMOStran port map(A, net_194, VDD);","  pmos_7: PMOStran port map(B, net_196, VDD);",  pwr_0: power port map(VDD);,end XOR_2_1_BODY;,"",-------------------- Cell Full_Adder{sch} --------------------,"entity Full_Adder is port(A, B, C_in: in BIT; C_out, S: out BIT; VDD: out BIT; ",    GND: out BIT);,  end Full_Adder;,"",architecture Full_Adder_BODY of Full_Adder is,  component ground port(gnd: out BIT);,    end component;,  component power port(vdd: out BIT);,    end component;,"  component NAND_ port(A, B: in BIT; F: out BIT);",    end component;,"  component XOR_2_1 port(A, B: in BIT; F: out BIT; VDD: out BIT; GND: out ",    BIT);,    end component;,"","  signal net_0, net_1, net_19, net_28, net_4, net_55, net_7: BIT;","",begin,  gnd_0: ground port map(GND);,  pwr_0: power port map(VDD);,"  NAND_0: NAND_ port map(net_55, C_in, net_0);","  NAND_1: NAND_ port map(net_0, net_0, net_19);","  NAND_2: NAND_ port map(net_19, net_19, net_7);","  NAND_3: NAND_ port map(net_7, net_4, C_out);","  NAND_4: NAND_ port map(net_1, net_1, net_4);","  NAND_5: NAND_ port map(A, B, net_28);","  NAND_6: NAND_ port map(net_28, net_28, net_1);","  XOR_2_1_0: XOR_2_1 port map(net_55, C_in, S, VDD, GND);","  XOR_2_1_2: XOR_2_1 port map(A, B, net_55, VDD, GND);",end Full_Adder_BODY;]
+CFull_Adder;1{vhdl}||artwork|1556176194320|1556685088076||FACET_message()S["-- VHDL automatically generated by the Electric VLSI Design System, version ",-- 9.07,"",-------------------- Cell NAND{sch} --------------------,"entity NAND_ is port(A, B: in BIT; F: out BIT);",  end NAND_;,"",architecture NAND__BODY of NAND_ is,  component ground port(gnd: out BIT);,    end component;,"  component nMOStran port(g: in BIT; s, d: inout BIT);",    end component;,"  component PMOStran port(g: in BIT; s, d: inout BIT);",    end component;,  component power port(vdd: out BIT);,    end component;,"","  signal gnd, net_2, vdd: BIT;","",begin,  gnd_0: ground port map(gnd);,"  nmos_0: nMOStran port map(A, net_2, F);","  nmos_1: nMOStran port map(B, gnd, net_2);","  pmos_0: PMOStran port map(B, F, vdd);","  pmos_1: PMOStran port map(A, F, vdd);",  pwr_0: power port map(vdd);,end NAND__BODY;,"",-------------------- Cell XOR_2_1{sch} --------------------,"entity XOR_2_1 is port(A, B: in BIT; F: out BIT; VDD: out BIT; GND: out BIT);",  end XOR_2_1;,"",architecture XOR_2_1_BODY of XOR_2_1 is,  component ground port(gnd: out BIT);,    end component;,"  component nMOStran port(g: in BIT; s, d: inout BIT);",    end component;,"  component PMOStran port(g: in BIT; s, d: inout BIT);",    end component;,  component power port(vdd: out BIT);,    end component;,"","  signal net_194, net_196, net_266, net_267, net_35, net_36: BIT;","",begin,  gnd_1: ground port map(GND);,"  nmos_0: nMOStran port map(net_194, net_36, F);","  nmos_1: nMOStran port map(net_196, GND, net_36);","  nmos_2: nMOStran port map(A, net_35, F);","  nmos_3: nMOStran port map(B, GND, net_35);","  nmos_4: nMOStran port map(A, GND, net_194);","  nmos_5: nMOStran port map(B, GND, net_196);","  pmos_2: PMOStran port map(net_196, net_267, VDD);","  pmos_3: PMOStran port map(A, F, net_267);","  pmos_4: PMOStran port map(net_194, net_266, VDD);","  pmos_5: PMOStran port map(B, F, net_266);","  pmos_6: PMOStran port map(A, net_194, VDD);","  pmos_7: PMOStran port map(B, net_196, VDD);",  pwr_0: power port map(VDD);,end XOR_2_1_BODY;,"",-------------------- Cell Full_Adder{sch} --------------------,"entity Full_Adder is port(A, B, C_in: in BIT; C_out, S: out BIT; VDD: out BIT; ",    GND: out BIT);,  end Full_Adder;,"",architecture Full_Adder_BODY of Full_Adder is,  component ground port(gnd: out BIT);,    end component;,  component power port(vdd: out BIT);,    end component;,"  component NAND_ port(A, B: in BIT; F: out BIT);",    end component;,"  component XOR_2_1 port(A, B: in BIT; F: out BIT; VDD: out BIT; GND: out ",    BIT);,    end component;,"","  signal net_0, net_1, net_19, net_28, net_4, net_55, net_7: BIT;","",begin,  gnd_0: ground port map(GND);,  pwr_0: power port map(VDD);,"  NAND_0: NAND_ port map(net_55, C_in, net_0);","  NAND_1: NAND_ port map(net_0, net_0, net_19);","  NAND_2: NAND_ port map(net_19, net_19, net_7);","  NAND_3: NAND_ port map(net_7, net_4, C_out);","  NAND_4: NAND_ port map(net_1, net_1, net_4);","  NAND_5: NAND_ port map(A, B, net_28);","  NAND_6: NAND_ port map(net_28, net_28, net_1);","  XOR_2_1_0: XOR_2_1 port map(net_55, C_in, S, VDD, GND);","  XOR_2_1_2: XOR_2_1 port map(A, B, net_55, VDD, GND);",end Full_Adder_BODY;]
 Ngeneric:Facet-Center|art@0||0|0||||AV
 X
 
@@ -2557,6 +2561,181 @@ X
 
 # Cell Shift_Register_4_bit;1{vhdl}
 CShift_Register_4_bit;1{vhdl}||artwork|1556087009742|1556087009746||FACET_message()S["-- VHDL automatically generated by the Electric VLSI Design System, version ",-- 9.07,"",-------------------- Cell NAND{sch} --------------------,"entity NAND_ is port(A, B: in BIT; F: out BIT);",  end NAND_;,"",architecture NAND__BODY of NAND_ is,  component ground port(gnd: out BIT);,    end component;,"  component nMOStran port(g: in BIT; s, d: inout BIT);",    end component;,"  component PMOStran port(g: in BIT; s, d: inout BIT);",    end component;,  component power port(vdd: out BIT);,    end component;,"","  signal gnd, net_2, vdd: BIT;","",begin,  gnd_0: ground port map(gnd);,"  nmos_0: nMOStran port map(A, net_2, F);","  nmos_1: nMOStran port map(B, gnd, net_2);","  pmos_0: PMOStran port map(B, F, vdd);","  pmos_1: PMOStran port map(A, F, vdd);",  pwr_0: power port map(vdd);,end NAND__BODY;,"",-------------------- Cell D-FF{sch} --------------------,"entity D_FF is port(Data, clock: in BIT; Q, Q_prime: out BIT);",  end D_FF;,"",architecture D_FF_BODY of D_FF is,"  component NAND_ port(A, B: in BIT; F: out BIT);",    end component;,"","  signal net_46, net_49, net_5: BIT;","",begin,"  NAND_1: NAND_ port map(Data, clock, net_5);","  NAND_2: NAND_ port map(net_46, clock, net_49);","  NAND_4: NAND_ port map(net_5, Q_prime, Q);","  NAND_5: NAND_ port map(Q, net_49, Q_prime);","  NAND_6: NAND_ port map(Data, Data, net_46);",end D_FF_BODY;,"",-------------------- Cell Shift_Register_16_bit{sch} --------------------,"entity Shift_Register_16_bit is port(clock, data: in BIT; data_out: out BIT);",  end Shift_Register_16_bit;,"",architecture Shift_Register_16_bit_BODY of Shift_Register_16_bit is,"  component D_FF port(Data, clock: in BIT; Q, Q_prime: out BIT);",    end component;,"","  signal net_12, net_22, net_28, net_34, net_40, net_42, net_48, net_54, net_60,","     net_66, net_72, net_78, net_84, net_90, net_96: BIT;","",begin,"  D_FF_0: D_FF port map(net_72, net_12, net_78, open);","  D_FF_1: D_FF port map(net_78, net_12, net_84, open);","  D_FF_2: D_FF port map(net_66, net_12, net_72, open);","  D_FF_3: D_FF port map(net_60, net_12, net_66, open);","  D_FF_4: D_FF port map(net_84, net_12, net_90, open);","  D_FF_5: D_FF port map(net_90, net_12, net_96, open);","  D_FF_6: D_FF port map(net_96, net_12, data_out, open);","  D_FF_7: D_FF port map(net_12, clock, net_60, open);","  D_FF_8: D_FF port map(net_34, clock, net_40, open);","  D_FF_9: D_FF port map(net_40, clock, net_42, open);","  D_FF_10: D_FF port map(net_28, clock, net_34, open);","  D_FF_11: D_FF port map(net_22, clock, net_28, open);","  D_FF_12: D_FF port map(net_42, clock, net_48, open);","  D_FF_13: D_FF port map(net_48, clock, net_54, open);","  D_FF_14: D_FF port map(net_54, clock, net_12, open);","  D_FF_15: D_FF port map(data, clock, net_22, open);",end Shift_Register_16_bit_BODY;]
+Ngeneric:Facet-Center|art@0||0|0||||AV
+X
+
+# Cell Subtractor_8_bit;1{net.als}
+CSubtractor_8_bit;1{net.als}||artwork|1556684897849|1556686643835||FACET_message()S[#*************************************************,#  ALS Netlist file,#,"#  File Creation:    Tue Apr 30, 2019 21:57:23",#-------------------------------------------------,"","model NAND_(A, B, F)",gnd_0: ground(gnd),"nmos_0: nMOStran(A, net_2, F)","nmos_1: nMOStran(B, gnd, net_2)","pmos_0: PMOStran(B, F, vdd)","pmos_1: PMOStran(A, F, vdd)",pwr_0: power(vdd),set power = H@3,"","model XOR_2_1(A, B, F, VDD, GND)",gnd_1: ground(GND),"nmos_0: nMOStran(net_194, net_36, F)","nmos_1: nMOStran(net_196, GND, net_36)","nmos_2: nMOStran(A, net_35, F)","nmos_3: nMOStran(B, GND, net_35)","nmos_4: nMOStran(A, GND, net_194)","nmos_5: nMOStran(B, GND, net_196)","pmos_2: PMOStran(net_196, net_267, VDD)","pmos_3: PMOStran(A, F, net_267)","pmos_4: PMOStran(net_194, net_266, VDD)","pmos_5: PMOStran(B, F, net_266)","pmos_6: PMOStran(A, net_194, VDD)","pmos_7: PMOStran(B, net_196, VDD)",pwr_0: power(VDD),set power = H@3,"","model Full_Adder(A, B, C_in, C_out, S, VDD, GND)",gnd_0: ground(GND),pwr_0: power(VDD),"NAND_0: NAND_(net_55, C_in, net_0)","NAND_1: NAND_(net_0, net_0, net_19)","NAND_2: NAND_(net_19, net_19, net_7)","NAND_3: NAND_(net_7, net_4, C_out)","NAND_4: NAND_(net_1, net_1, net_4)","NAND_5: NAND_(A, B, net_28)","NAND_6: NAND_(net_28, net_28, net_1)","XOR_2_1_0: XOR_2_1(net_55, C_in, S, VDD, GND)","XOR_2_1_2: XOR_2_1(A, B, net_55, VDD, GND)",set power = H@3,"","model E_4_bit_Adder(A0, A1, A2, A3, B0, B1, B2, B3, Cin, Cout, S0, S1, S2, S3, VDD, GND)",gnd_0: ground(GND),pwr_0: power(VDD),"Full_Add_0: Full_Adder(A2, B2, net_4, net_0, S2, VDD, GND)","Full_Add_1: Full_Adder(A1, B1, net_8, net_4, S1, VDD, GND)","Full_Add_2: Full_Adder(A0, B0, Cin, net_8, S0, VDD, GND)","Full_Add_3: Full_Adder(A3, B3, net_0, Cout, S3, VDD, GND)",set power = H@3,"","model Inverter(in_, out_)",gnd_0: ground(gnd),"nmos_0: nMOStran(in_, gnd, out_)","pmos_1: PMOStran(in_, out_, vdd)",pwr_0: power(vdd),set power = H@3,"","model Subtractor_8_bit(A0, A1, A2, A3, A4, A5, A6, A7, B0, B1, B2, B3, B4, B5, B6, B7, S0, S1, S2, S3, S4, S5, S6, S7, VDD, GND)",gnd_0: ground(GND),pwr_0: power(VDD),"E_4_bit_Ad_0: E_4_bit_Adder(A0, A1, A2, A3, net_2, net_6, net_10, net_14, net_66, net_0, S0, S1, S2, S3, VDD, GND)","E_4_bit_Ad_1: E_4_bit_Adder(A4, A5, A6, A7, net_22, net_26, net_30, net_34, net_0, net_66, S4, S5, S6, S7, VDD, GND)","Inverter_0: Inverter(B0, net_2)","Inverter_1: Inverter(B1, net_6)","Inverter_2: Inverter(B2, net_10)","Inverter_3: Inverter(B3, net_14)","Inverter_4: Inverter(B4, net_22)","Inverter_5: Inverter(B5, net_26)","Inverter_6: Inverter(B6, net_30)","Inverter_7: Inverter(B7, net_34)",set power = H@3,"",#********* End of netlist *******************,"",# Built-in model for PMOStran,"function PMOStran(g, a1, a2)","i: g, a1, a2","o: a1, a2",t: delta=1e-8,"",# Built-in model for nMOStran,"function nMOStran(g, a1, a2)","i: g, a1, a2","o: a1, a2",t: delta=1e-8,"",# Built-in model for power,gate power(p),set p=H@3,t: delta=0,"",# Built-in model for ground,gate ground(g),set g=L@3,t: delta=0]
+Ngeneric:Facet-Center|art@0||0|0||||AV
+X
+
+# Cell Subtractor_8_bit;1{sch}
+CSubtractor_8_bit;1{sch}||schematic|1556684188263|1556686215665|
+I4_bit_Adder;1{sch}|4_bit_Ad@0||56|14.5|||D5G4;
+I4_bit_Adder;1{sch}|4_bit_Ad@1||-563.5|13.5|||D5G4;
+IInverter;1{sch}|Inverter@0||233.5|134.5|||D5G4;
+IInverter;1{sch}|Inverter@1||86|133|||D5G4;
+IInverter;1{sch}|Inverter@2||-61|132.5|||D5G4;
+IInverter;1{sch}|Inverter@3||-208|132|||D5G4;
+IInverter;1{sch}|Inverter@4||-384.5|132.5|||D5G4;
+IInverter;1{sch}|Inverter@5||-531.5|134|||D5G4;
+IInverter;1{sch}|Inverter@6||-681|134|||D5G4;
+IInverter;1{sch}|Inverter@7||-827|134|||D5G4;
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NGround|gnd@0||-290.5|-91||||
+NWire_Pin|pin@0||-295.5|-1||||
+NWire_Pin|pin@1||233.5|141||||
+NWire_Pin|pin@2||233.5|115.5||||
+NWire_Pin|pin@3||195|115.5||||
+NWire_Pin|pin@4||87.5|139.5||||
+NWire_Pin|pin@5||87.5|115.5||||
+NWire_Pin|pin@6||47|115.5||||
+NWire_Pin|pin@7||-63|139||||
+NWire_Pin|pin@8||-63|116||||
+NWire_Pin|pin@9||-100.5|116||||
+NWire_Pin|pin@10||-207.5|138.5||||
+NWire_Pin|pin@11||-207.5|115||||
+NWire_Pin|pin@12||-248.5|115||||
+NWire_Pin|pin@13||-246.5|180||||
+NWire_Pin|pin@14||-99.5|175.5||||
+NWire_Pin|pin@15||47.5|174||||
+NWire_Pin|pin@16||195|177||||
+NWire_Pin|pin@17||-385|139||||
+NWire_Pin|pin@18||-385|113.5||||
+NWire_Pin|pin@19||-424.5|113.5||||
+NWire_Pin|pin@20||-529.5|140.5||||
+NWire_Pin|pin@21||-529.5|116.5||||
+NWire_Pin|pin@22||-572.5|116.5||||
+NWire_Pin|pin@23||-683|140.5||||
+NWire_Pin|pin@24||-683|116.5||||
+NWire_Pin|pin@25||-720|116.5||||
+NWire_Pin|pin@26||-827.5|140.5||||
+NWire_Pin|pin@27||-827.5|117||||
+NWire_Pin|pin@28||-868|117||||
+NWire_Pin|pin@29||-423|181||||
+NWire_Pin|pin@30||-719.5|182.5||||
+NWire_Pin|pin@31||-570|181.5||||
+NWire_Pin|pin@32||-865.5|181.5||||
+NWire_Pin|pin@33||176.5|177.5||||
+NWire_Pin|pin@34||29|173.5||||
+NWire_Pin|pin@35||-119|174||||
+NWire_Pin|pin@36||-267|178.5||||
+NWire_Pin|pin@37||-443|180||||
+NWire_Pin|pin@38||-590.5|182.5||||
+NWire_Pin|pin@39||-738.5|183.5||||
+NWire_Pin|pin@40||-886.5|181.5||||
+NWire_Pin|pin@41||290.5|-93||||
+NWire_Pin|pin@42||143|-95||||
+NWire_Pin|pin@43||-5|-97||||
+NWire_Pin|pin@44||-153|-93.5||||
+NWire_Pin|pin@45||-329|-94.5||||
+NWire_Pin|pin@46||-476.5|-95||||
+NWire_Pin|pin@47||-624.5|-96||||
+NWire_Pin|pin@48||-772.5|-93||||
+NWire_Pin|pin@49||-293.5|87||||
+NWire_Pin|pin@50||-293.5|88||||
+NWire_Pin|pin@51||-598.5|-89||||
+NWire_Pin|pin@52||21|-89||||
+NWire_Pin|pin@53||-906|26.5||||
+NPower|pwr@0||-293.5|116.5||||
+Awire|net@0|||0|4_bit_Ad@0|Cout|-286.5|-1|pin@0||-295.5|-1
+Awire|net@1|||900|4_bit_Ad@1|Cin|-295.5|25.5|pin@0||-295.5|-1
+Awire|net@2|||1800|Inverter@0|out|227|141|pin@1||233.5|141
+Awire|net@3|||900|pin@1||233.5|141|pin@2||233.5|115.5
+Awire|net@4|||0|pin@2||233.5|115.5|pin@3||195|115.5
+Awire|net@5|||2700|4_bit_Ad@0|B0|195|104|pin@3||195|115.5
+Awire|net@6|||1800|Inverter@1|out|79.5|139.5|pin@4||87.5|139.5
+Awire|net@7|||900|pin@4||87.5|139.5|pin@5||87.5|115.5
+Awire|net@8|||0|pin@5||87.5|115.5|pin@6||47|115.5
+Awire|net@9|||2700|4_bit_Ad@0|B1|47|102.5|pin@6||47|115.5
+Awire|net@10|||1800|Inverter@2|out|-67.5|139|pin@7||-63|139
+Awire|net@11|||900|pin@7||-63|139|pin@8||-63|116
+Awire|net@12|||0|pin@8||-63|116|pin@9||-100.5|116
+Awire|net@13|||2700|4_bit_Ad@0|B2|-100.5|103|pin@9||-100.5|116
+Awire|net@14|||1800|Inverter@3|out|-214.5|138.5|pin@10||-207.5|138.5
+Awire|net@15|||900|pin@10||-207.5|138.5|pin@11||-207.5|115
+Awire|net@16|||0|pin@11||-207.5|115|pin@12||-248.5|115
+Awire|net@17|||2700|4_bit_Ad@0|B3|-248.5|101|pin@12||-248.5|115
+Awire|net@18|||2700|Inverter@3|in|-246.5|138.5|pin@13||-246.5|180
+Awire|net@19|||2700|Inverter@2|in|-99.5|139|pin@14||-99.5|175.5
+Awire|net@20|||2700|Inverter@1|in|47.5|139.5|pin@15||47.5|174
+Awire|net@21|||2700|Inverter@0|in|195|141|pin@16||195|177
+Awire|net@22|||1800|Inverter@4|out|-391|139|pin@17||-385|139
+Awire|net@23|||900|pin@17||-385|139|pin@18||-385|113.5
+Awire|net@24|||0|pin@18||-385|113.5|pin@19||-424.5|113.5
+Awire|net@25|||2700|4_bit_Ad@1|B0|-424.5|103|pin@19||-424.5|113.5
+Awire|net@26|||1800|Inverter@5|out|-538|140.5|pin@20||-529.5|140.5
+Awire|net@27|||900|pin@20||-529.5|140.5|pin@21||-529.5|116.5
+Awire|net@28|||0|pin@21||-529.5|116.5|pin@22||-572.5|116.5
+Awire|net@29|||2700|4_bit_Ad@1|B1|-572.5|101.5|pin@22||-572.5|116.5
+Awire|net@30|||1800|Inverter@6|out|-687.5|140.5|pin@23||-683|140.5
+Awire|net@31|||900|pin@23||-683|140.5|pin@24||-683|116.5
+Awire|net@32|||0|pin@24||-683|116.5|pin@25||-720|116.5
+Awire|net@33|||2700|4_bit_Ad@1|B2|-720|102|pin@25||-720|116.5
+Awire|net@34|||1800|Inverter@7|out|-833.5|140.5|pin@26||-827.5|140.5
+Awire|net@35|||900|pin@26||-827.5|140.5|pin@27||-827.5|117
+Awire|net@36|||0|pin@27||-827.5|117|pin@28||-868|117
+Awire|net@37|||2700|4_bit_Ad@1|B3|-868|100|pin@28||-868|117
+Awire|net@38|||2700|Inverter@4|in|-423|139|pin@29||-423|181
+Awire|net@39|||2700|Inverter@6|in|-719.5|140.5|pin@30||-719.5|182.5
+Awire|net@40|||2700|Inverter@5|in|-570|140.5|pin@31||-570|181.5
+Awire|net@41|||2700|Inverter@7|in|-865.5|140.5|pin@32||-865.5|181.5
+Awire|net@42|||2700|4_bit_Ad@0|A0|176.5|104|pin@33||176.5|177.5
+Awire|net@43|||2700|4_bit_Ad@0|A1|29|104|pin@34||29|173.5
+Awire|net@44|||2700|4_bit_Ad@0|A2|-119|105.5|pin@35||-119|174
+Awire|net@45|||2700|4_bit_Ad@0|A3|-267|103|pin@36||-267|178.5
+Awire|net@46|||2700|4_bit_Ad@1|A0|-443|103|pin@37||-443|180
+Awire|net@47|||2700|4_bit_Ad@1|A1|-590.5|103|pin@38||-590.5|182.5
+Awire|net@48|||2700|4_bit_Ad@1|A2|-738.5|104.5|pin@39||-738.5|183.5
+Awire|net@49|||2700|4_bit_Ad@1|A3|-886.5|102|pin@40||-886.5|181.5
+Awire|net@50|||900|4_bit_Ad@0|S0|290.5|-76|pin@41||290.5|-93
+Awire|net@51|||900|4_bit_Ad@0|S1|143|-79|pin@42||143|-95
+Awire|net@52|||900|4_bit_Ad@0|S2|-5|-78.5|pin@43||-5|-97
+Awire|net@53|||900|4_bit_Ad@0|S3|-153|-79.5|pin@44||-153|-93.5
+Awire|net@54|||900|4_bit_Ad@1|S0|-329|-77|pin@45||-329|-94.5
+Awire|net@55|||900|4_bit_Ad@1|S1|-476.5|-80|pin@46||-476.5|-95
+Awire|net@56|||900|4_bit_Ad@1|S2|-624.5|-79.5|pin@47||-624.5|-96
+Awire|net@57|||900|4_bit_Ad@1|S3|-772.5|-80.5|pin@48||-772.5|-93
+Awire|net@58|||1800|4_bit_Ad@1|VDD|-610|87|pin@49||-293.5|87
+Awire|net@59|||900|pwr@0||-293.5|116.5|pin@49||-293.5|87
+Awire|net@60|||0|4_bit_Ad@0|VDD|9.5|88|pin@50||-293.5|88
+Awire|net@61|||900|pwr@0||-293.5|116.5|pin@50||-293.5|88
+Awire|net@62|||900|4_bit_Ad@1|GND|-598.5|-76|pin@51||-598.5|-89
+Awire|net@63|||0|gnd@0||-290.5|-89|pin@51||-598.5|-89
+Awire|net@64|||900|4_bit_Ad@0|GND|21|-75|pin@52||21|-89
+Awire|net@65|||1800|gnd@0||-290.5|-89|pin@52||21|-89
+Awire|net@66|||2700|4_bit_Ad@1|Cout|-906|-2|pin@53||-906|26.5
+Awire|net@67|||0|4_bit_Ad@0|Cin|324|26.5|pin@53||-906|26.5
+EA0||D5G2;|pin@33||I
+EA1||D5G2;|pin@34||I
+EA2||D5G2;|pin@35||I
+EA3||D5G2;|pin@36||I
+EA4||D5G2;|pin@37||I
+EA5||D5G2;|pin@38||I
+EA6||D5G2;|pin@39||I
+EA7||D5G2;|pin@40||I
+EB0||D5G2;|pin@16||I
+EB1||D5G2;|pin@15||I
+EB2||D5G2;|pin@14||I
+EB3||D5G2;|pin@13||I
+EB4||D5G2;|pin@29||I
+EB5||D5G2;|pin@31||I
+EB6||D5G2;|pin@30||I
+EB7||D5G2;|pin@32||I
+EGND||D5G2;|gnd@0||G
+ES0||D5G2;|pin@41||O
+ES1||D5G2;|pin@42||O
+ES2||D5G2;|pin@43||O
+ES3||D5G2;|pin@44||O
+ES4||D5G2;|pin@45||O
+ES5||D5G2;|pin@46||O
+ES6||D5G2;|pin@47||O
+ES7||D5G2;|pin@48||O
+EVDD||D5G2;|pwr@0||P
+X
+
+# Cell Subtractor_8_bit;1{vhdl}
+CSubtractor_8_bit;1{vhdl}||artwork|1556684897845|1556686223719||FACET_message()S["-- VHDL automatically generated by the Electric VLSI Design System, version ",-- 9.07,"",-------------------- Cell NAND{sch} --------------------,"entity NAND_ is port(A, B: in BIT; F: out BIT);",  end NAND_;,"",architecture NAND__BODY of NAND_ is,  component ground port(gnd: out BIT);,    end component;,"  component nMOStran port(g: in BIT; s, d: inout BIT);",    end component;,"  component PMOStran port(g: in BIT; s, d: inout BIT);",    end component;,  component power port(vdd: out BIT);,    end component;,"","  signal gnd, net_2, vdd: BIT;","",begin,  gnd_0: ground port map(gnd);,"  nmos_0: nMOStran port map(A, net_2, F);","  nmos_1: nMOStran port map(B, gnd, net_2);","  pmos_0: PMOStran port map(B, F, vdd);","  pmos_1: PMOStran port map(A, F, vdd);",  pwr_0: power port map(vdd);,end NAND__BODY;,"",-------------------- Cell XOR_2_1{sch} --------------------,"entity XOR_2_1 is port(A, B: in BIT; F: out BIT; VDD: out BIT; GND: out BIT);",  end XOR_2_1;,"",architecture XOR_2_1_BODY of XOR_2_1 is,  component ground port(gnd: out BIT);,    end component;,"  component nMOStran port(g: in BIT; s, d: inout BIT);",    end component;,"  component PMOStran port(g: in BIT; s, d: inout BIT);",    end component;,  component power port(vdd: out BIT);,    end component;,"","  signal net_194, net_196, net_266, net_267, net_35, net_36: BIT;","",begin,  gnd_1: ground port map(GND);,"  nmos_0: nMOStran port map(net_194, net_36, F);","  nmos_1: nMOStran port map(net_196, GND, net_36);","  nmos_2: nMOStran port map(A, net_35, F);","  nmos_3: nMOStran port map(B, GND, net_35);","  nmos_4: nMOStran port map(A, GND, net_194);","  nmos_5: nMOStran port map(B, GND, net_196);","  pmos_2: PMOStran port map(net_196, net_267, VDD);","  pmos_3: PMOStran port map(A, F, net_267);","  pmos_4: PMOStran port map(net_194, net_266, VDD);","  pmos_5: PMOStran port map(B, F, net_266);","  pmos_6: PMOStran port map(A, net_194, VDD);","  pmos_7: PMOStran port map(B, net_196, VDD);",  pwr_0: power port map(VDD);,end XOR_2_1_BODY;,"",-------------------- Cell Full_Adder{sch} --------------------,"entity Full_Adder is port(A, B, C_in: in BIT; C_out, S: out BIT; VDD: out BIT; ",    GND: out BIT);,  end Full_Adder;,"",architecture Full_Adder_BODY of Full_Adder is,  component ground port(gnd: out BIT);,    end component;,  component power port(vdd: out BIT);,    end component;,"  component NAND_ port(A, B: in BIT; F: out BIT);",    end component;,"  component XOR_2_1 port(A, B: in BIT; F: out BIT; VDD: out BIT; GND: out ",    BIT);,    end component;,"","  signal net_0, net_1, net_19, net_28, net_4, net_55, net_7: BIT;","",begin,  gnd_0: ground port map(GND);,  pwr_0: power port map(VDD);,"  NAND_0: NAND_ port map(net_55, C_in, net_0);","  NAND_1: NAND_ port map(net_0, net_0, net_19);","  NAND_2: NAND_ port map(net_19, net_19, net_7);","  NAND_3: NAND_ port map(net_7, net_4, C_out);","  NAND_4: NAND_ port map(net_1, net_1, net_4);","  NAND_5: NAND_ port map(A, B, net_28);","  NAND_6: NAND_ port map(net_28, net_28, net_1);","  XOR_2_1_0: XOR_2_1 port map(net_55, C_in, S, VDD, GND);","  XOR_2_1_2: XOR_2_1 port map(A, B, net_55, VDD, GND);",end Full_Adder_BODY;,"",-------------------- Cell 4_bit_Adder{sch} --------------------,"entity E_4_bit_Adder is port(A0, A1, A2, A3, B0, B1, B2, B3, Cin: in BIT; Cout, ","    S0, S1, S2, S3: out BIT; VDD: out BIT; GND: out BIT);",  end E_4_bit_Adder;,"",architecture E_4_bit_Adder_BODY of E_4_bit_Adder is,  component ground port(gnd: out BIT);,    end component;,  component power port(vdd: out BIT);,    end component;,"  component Full_Adder port(A, B, C_in: in BIT; C_out, S: out BIT; VDD: out ",    BIT; GND: out BIT);,    end component;,"","  signal net_0, net_4, net_8: BIT;","",begin,  gnd_0: ground port map(GND);,  pwr_0: power port map(VDD);,"  Full_Add_0: Full_Adder port map(A2, B2, net_4, net_0, S2, VDD, GND);","  Full_Add_1: Full_Adder port map(A1, B1, net_8, net_4, S1, VDD, GND);","  Full_Add_2: Full_Adder port map(A0, B0, Cin, net_8, S0, VDD, GND);","  Full_Add_3: Full_Adder port map(A3, B3, net_0, Cout, S3, VDD, GND);",end E_4_bit_Adder_BODY;,"",-------------------- Cell Inverter{sch} --------------------,entity Inverter is port(in_: in BIT; out_: out BIT);,  end Inverter;,"",architecture Inverter_BODY of Inverter is,  component ground port(gnd: out BIT);,    end component;,"  component nMOStran port(g: in BIT; s, d: inout BIT);",    end component;,"  component PMOStran port(g: in BIT; s, d: inout BIT);",    end component;,  component power port(vdd: out BIT);,    end component;,"","  signal gnd, vdd: BIT;","",begin,  gnd_0: ground port map(gnd);,"  nmos_0: nMOStran port map(in_, gnd, out_);","  pmos_1: PMOStran port map(in_, out_, vdd);",  pwr_0: power port map(vdd);,end Inverter_BODY;,"",-------------------- Cell Subtractor_8_bit{sch} --------------------,"entity Subtractor_8_bit is port(A0, A1, A2, A3, A4, A5, A6, A7, B0, B1, B2, B3, ","    B4, B5, B6, B7: in BIT; S0, S1, S2, S3, S4, S5, S6, S7: out BIT; VDD: out ",    BIT; GND: out BIT);,  end Subtractor_8_bit;,"",architecture Subtractor_8_bit_BODY of Subtractor_8_bit is,  component ground port(gnd: out BIT);,    end component;,  component power port(vdd: out BIT);,    end component;,"  component E_4_bit_Adder port(A0, A1, A2, A3, B0, B1, B2, B3, Cin: in BIT; ","    Cout, S0, S1, S2, S3: out BIT; VDD: out BIT; GND: out BIT);",    end component;,  component Inverter port(in_: in BIT; out_: out BIT);,    end component;,"","  signal net_0, net_10, net_14, net_2, net_22, net_26, net_30, net_34, net_6, net_66",    : BIT;,"",begin,  gnd_0: ground port map(GND);,  pwr_0: power port map(VDD);,"  E_4_bit_Ad_0: E_4_bit_Adder port map(A0, A1, A2, A3, net_2, net_6, net_10, ","    net_14, net_66, net_0, S0, S1, S2, S3, VDD, GND);","  E_4_bit_Ad_1: E_4_bit_Adder port map(A4, A5, A6, A7, net_22, net_26, net_30, ","    net_34, net_0, net_66, S4, S5, S6, S7, VDD, GND);","  Inverter_0: Inverter port map(B0, net_2);","  Inverter_1: Inverter port map(B1, net_6);","  Inverter_2: Inverter port map(B2, net_10);","  Inverter_3: Inverter port map(B3, net_14);","  Inverter_4: Inverter port map(B4, net_22);","  Inverter_5: Inverter port map(B5, net_26);","  Inverter_6: Inverter port map(B6, net_30);","  Inverter_7: Inverter port map(B7, net_34);",end Subtractor_8_bit_BODY;]
 Ngeneric:Facet-Center|art@0||0|0||||AV
 X
 
